@@ -1,0 +1,213 @@
+.loginBanner,.regBanner{
+    width:100%;
+    img{
+        height:150px;
+        display: block;
+        width:100%;
+    }
+}
+.logEntry,.regEntry{
+    width:95%;
+    padding-left:5%;
+    .phone,.regCode,.password{
+        width:100%;
+        font:14px/40px "microsoft yahei";
+        i{
+            display:inline-block;
+            width:10%;
+            text-align: center;
+            position:relative;top:3px;
+        }
+        input{
+            margin-left:10px;
+            width:55%;
+            border:none;
+            font:14px/40px "microsoft yahei";
+        }
+        .imgWrapper{
+            display:inline-block;
+            width:26%;
+            text-align: center;
+            height:42px;
+            img{
+                width:14px;
+                height:14px;
+                margin-top:13px;
+                display: none;
+            }
+            .showPsw{
+                display:block;
+            } 
+        }
+        .imgWrapper1{
+            display:inline-block;
+            width:26%;
+            text-align: center;
+            height:40px;
+            img{
+                width:14px;
+                height:14px;
+                margin-top:13px;
+            }
+        }
+    }
+    .password{
+        border-top:solid 1px #ddd; 
+        .showPsw{
+                display:none;
+            }
+        .imgWrapper{
+            img{
+                margin-top:0;
+                height:40px;
+                width:auto;
+            }
+           
+        }
+        .imgWrapper1{
+            img{
+                margin-top:0;
+                height:40px;
+                width:auto;
+            }
+       
+        }
+    }
+}
+.logBottom{
+    padding:0 5%;
+    width:90%;
+    background:#E9E9E9;
+    height: -moz-calc(100% - 280px); 
+    height: -webkit-calc(100% - 280px);
+    height: calc(100% - 280px);
+    position:relative;
+    .getPassword{
+        display: block;
+        font:14px/50px "microsoft yahei";
+        color:#999;
+    }
+    .btnShow{
+            background: #d9374f!important;
+        }
+    .loginBtn{
+        width:100%;
+        font:12px/30px "microsoft yahei";
+        color:#fff;
+        background:#ccc;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+        border:none;
+    }
+    .quickLogin{
+        width:100%;
+        text-align: right;
+        display: block;
+        font:14px/30px "microsoft yahei";
+        color:#666;
+    }
+    .logFooter{
+        width:100%;
+        position:absolute;
+        bottom:0;
+        left:0;
+        .logLabel{
+            width:100%;
+            text-align: center;
+            border-bottom: solid 1px #999;
+            span{
+                display:inline-block;
+                padding:0 10px;
+                font:14px/14px "microsoft yahei";
+                color:#999;
+                background:#E9E9E9;
+                position:relative;top:8px;
+            }
+        }
+        ul{
+            width:100%;
+            padding-top:20px;
+            li{
+                width:33.3%;
+                a{
+                    display: block;
+                    width:100%;
+                    text-align: center;
+                    img{
+                        width:40px;
+                        height:auto;
+                    }
+                    p{
+                        font:14px/24px "microsoft yahei";
+                        color:#666;
+                    }
+                }
+            }
+        }
+    }
+}
+.regEntry{
+    li{
+        border-bottom:solid 1px #ddd;
+    }
+    li:last-child{
+        border:none;
+    }
+    .password{
+        border-top: none;
+    }
+    .regCode{
+       .imgWrapper{
+           border-left:solid 1px #ddd;
+           .sendCode,.retry{
+               font:12px/40px "microsoft yahei";
+               color:#666;
+           }
+           .retry{
+               display:none;
+           }
+       } 
+    }
+}
+.regBottom{
+    width:100%;
+    background:#E9E9E9;
+    min-height:114px;
+    height: -moz-calc(100% - 366px); 
+    height: -webkit-calc(100% - 366px);
+    height: calc(100% - 366px);
+    .agreement{
+        width:100%;
+        padding:20px 0;
+        input{
+            margin-left:20px;
+            width:16px;
+            height:16px;
+            background:url(../img/yes.png) no-repeat;
+        }
+        input.noSelected{
+            background:url(../img/no.png) no-repeat;
+        }
+        label{
+            font:12px/16px "microsoft yahei";
+            color:#999;
+        }
+        a{
+            color:#cd0011;
+            font:12px/16px "microsoft yahei";
+        }
+    }
+    .regBtn{
+        width:100%;
+        text-align:center;
+        h3{
+            display: inline-block;
+            width:90%;
+            font:16px/36px "microsoft yahei";
+            background:#cd0011;
+            color:#fff;
+            border-radius: 5px;
+        }
+    }
+}

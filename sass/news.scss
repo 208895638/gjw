@@ -1,0 +1,43 @@
+.main{
+    width:100%;
+    background: #e9e9e9;
+    height: -moz-calc(100% - 53px); 
+    height: -webkit-calc(100% - 53px);
+    height: calc(100% - 53px);  
+    ul{
+        width:97%;
+        padding-left:3%;
+        background:#fff;
+        li{
+            width:100%;
+            border-bottom:solid 1px #ddd;
+            a{
+                display:block;
+                width:100%;
+                padding:8px 0;
+                .newsPic{
+                    width:40px;
+                    height:40px;
+                    margin-right:10px;
+                }
+                .newsContent{
+                     width: -moz-calc(100% - 50px); 
+                     width: -webkit-calc(100% - 50px);
+                     width: calc(100% - 50px);
+                     h4{
+                         font:14px/14px "microsoft yahei";
+                         color:#999;
+                         margin-bottom: 12px;
+                     }
+                     p{
+                         font:14px/14px "microsoft yahei";
+                         color:#000;
+                     }
+                }
+            }
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+    }
+}

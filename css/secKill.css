@@ -1,0 +1,84 @@
+.timeList {
+  width: 100%; }
+  .timeList li {
+    width: 33.3%;
+    padding: 8px 0;
+    text-align: center;
+    background: #666; }
+    .timeList li h4 {
+      color: #999;
+      font: 12px/12px "microsoft yahei";
+      margin-bottom: 3px; }
+    .timeList li p {
+      color: #999;
+      font: 14px/14px "microsoft yahei"; }
+  .timeList .clickSelect {
+    background: #cd0011; }
+    .timeList .clickSelect h4, .timeList .clickSelect p {
+      color: #fff; }
+
+.panicBuying {
+  width: 90%;
+  padding: 0 5%;
+  background: #e9e9e9; }
+  .panicBuying span {
+    font: 14px/40px "microsoft yahei";
+    color: #666; }
+    .panicBuying span i {
+      font: 16px/40px "microsoft yahei";
+      color: #000; }
+
+.goodsList {
+  width: 100%;
+  overflow-y: scroll;
+  height: -moz-calc(100% - 130px);
+  height: -webkit-calc(100% - 130px);
+  height: calc(100% - 130px); }
+  .goodsList .selling {
+    width: 97%;
+    padding-left: 3%; }
+    .goodsList .selling li {
+      width: 100%;
+      padding: 8px 0;
+      border-bottom: solid 1px #ddd; }
+      .goodsList .selling li a {
+        display: block;
+        width: 100%; }
+        .goodsList .selling li a img {
+          width: 70px;
+          height: 70px;
+          margin-right: 8px; }
+        .goodsList .selling li a .secKillContent {
+          width: -moz-calc(100% - 86px);
+          width: -webkit-calc(100% - 86px);
+          width: calc(100% - 86px);
+          padding-right: 8px; }
+          .goodsList .selling li a .secKillContent p {
+            width: 100%;
+            font: 12px/14px "microsoft yahei";
+            color: #333; }
+          .goodsList .selling li a .secKillContent .secKillPrice strong {
+            font: 12px/20px "microsoft yahei";
+            color: #cd0011;
+            margin-right: 5px; }
+            .goodsList .selling li a .secKillContent .secKillPrice strong i {
+              margin-left: 2px; }
+          .goodsList .selling li a .secKillContent .secKillPrice del {
+            font: 12px/20px "microsoft yahei";
+            color: #999; }
+            .goodsList .selling li a .secKillContent .secKillPrice del i {
+              margin-left: 2px; }
+          .goodsList .selling li a .secKillContent .btnWrapper {
+            width: 100%;
+            text-align: right; }
+            .goodsList .selling li a .secKillContent .btnWrapper .buyBtn {
+              display: inline-block;
+              padding: 0 8px;
+              font: 12px/24px "microsoft yahei";
+              color: #fff;
+              border-radius: 2px;
+              background: #cd0011; }
+    .goodsList .selling li:last-child {
+      border-bottom: none; }
+  .goodsList .sellSoon {
+    display: none; }

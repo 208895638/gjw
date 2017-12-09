@@ -1,0 +1,80 @@
+.payCenterNext{
+    width:100%;
+    height:100%;
+    .payCenterHide{
+        display: none;
+    }
+    .head{
+        background:#fff;
+        a{
+           font-size: 18px;
+           text-align: center;text-indent: 1em;
+        }
+        h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+            
+        }
+    }
+    .payCenterNextContent{
+        width:100%;
+       height: -moz-calc(100% - 100px); 
+       height: -webkit-calc(100% - 100px);
+       height: calc(100% - 100px);
+        .pCNTop{
+            padding-top:10px;
+            width:100%;
+            h1{
+                padding:15px 0 15px 47% ;
+                img{
+                    width:26px;
+                }
+            }
+            h2,h3{
+                text-align:center;
+                margin-bottom: 6px;
+            }
+            h3{
+                color:#919294;
+            }
+        }
+        .pCNCen{
+            width:100%;
+            ul{
+                padding:0 3%;
+                width:94%;
+                background: #fff;
+                li{
+                    padding:10px 0;
+                    width:100%;
+                   border-bottom: 2px solid #efeff1;
+                    span{
+                        width:25%;
+                        color:#5e5e5e;
+                    }
+                    em{
+                        width:75%;
+                    }
+                }
+            }
+        }
+    }
+    .pCNBottom{
+        width:94%;
+        padding:0 3%;
+        a{
+            width:48%;
+            padding:10px 0;
+            text-align: center;
+            border-radius: 4px;
+        }
+        a:nth-child(1){
+            background: #fff;
+            margin-right: 4%;
+        }
+        a:nth-child(2){
+            background: #cd0011;
+            color:#fff;
+        }
+    }
+}

@@ -1,0 +1,170 @@
+.loginBanner, .regBanner {
+  width: 100%; }
+  .loginBanner img, .regBanner img {
+    height: 150px;
+    display: block;
+    width: 100%; }
+
+.logEntry, .regEntry {
+  width: 95%;
+  padding-left: 5%; }
+  .logEntry .phone, .logEntry .regCode, .logEntry .password, .regEntry .phone, .regEntry .regCode, .regEntry .password {
+    width: 100%;
+    font: 14px/40px "microsoft yahei"; }
+    .logEntry .phone i, .logEntry .regCode i, .logEntry .password i, .regEntry .phone i, .regEntry .regCode i, .regEntry .password i {
+      display: inline-block;
+      width: 10%;
+      text-align: center;
+      position: relative;
+      top: 3px; }
+    .logEntry .phone input, .logEntry .regCode input, .logEntry .password input, .regEntry .phone input, .regEntry .regCode input, .regEntry .password input {
+      margin-left: 10px;
+      width: 55%;
+      border: none;
+      font: 14px/40px "microsoft yahei"; }
+    .logEntry .phone .imgWrapper, .logEntry .regCode .imgWrapper, .logEntry .password .imgWrapper, .regEntry .phone .imgWrapper, .regEntry .regCode .imgWrapper, .regEntry .password .imgWrapper {
+      display: inline-block;
+      width: 26%;
+      text-align: center;
+      height: 42px; }
+      .logEntry .phone .imgWrapper img, .logEntry .regCode .imgWrapper img, .logEntry .password .imgWrapper img, .regEntry .phone .imgWrapper img, .regEntry .regCode .imgWrapper img, .regEntry .password .imgWrapper img {
+        width: 14px;
+        height: 14px;
+        margin-top: 13px;
+        display: none; }
+      .logEntry .phone .imgWrapper .showPsw, .logEntry .regCode .imgWrapper .showPsw, .logEntry .password .imgWrapper .showPsw, .regEntry .phone .imgWrapper .showPsw, .regEntry .regCode .imgWrapper .showPsw, .regEntry .password .imgWrapper .showPsw {
+        display: block; }
+    .logEntry .phone .imgWrapper1, .logEntry .regCode .imgWrapper1, .logEntry .password .imgWrapper1, .regEntry .phone .imgWrapper1, .regEntry .regCode .imgWrapper1, .regEntry .password .imgWrapper1 {
+      display: inline-block;
+      width: 26%;
+      text-align: center;
+      height: 40px; }
+      .logEntry .phone .imgWrapper1 img, .logEntry .regCode .imgWrapper1 img, .logEntry .password .imgWrapper1 img, .regEntry .phone .imgWrapper1 img, .regEntry .regCode .imgWrapper1 img, .regEntry .password .imgWrapper1 img {
+        width: 14px;
+        height: 14px;
+        margin-top: 13px; }
+  .logEntry .password, .regEntry .password {
+    border-top: solid 1px #ddd; }
+    .logEntry .password .showPsw, .regEntry .password .showPsw {
+      display: none; }
+    .logEntry .password .imgWrapper img, .regEntry .password .imgWrapper img {
+      margin-top: 0;
+      height: 40px;
+      width: auto; }
+    .logEntry .password .imgWrapper1 img, .regEntry .password .imgWrapper1 img {
+      margin-top: 0;
+      height: 40px;
+      width: auto; }
+
+.logBottom {
+  padding: 0 5%;
+  width: 90%;
+  background: #E9E9E9;
+  height: -moz-calc(100% - 280px);
+  height: -webkit-calc(100% - 280px);
+  height: calc(100% - 280px);
+  position: relative; }
+  .logBottom .getPassword {
+    display: block;
+    font: 14px/50px "microsoft yahei";
+    color: #999; }
+  .logBottom .btnShow {
+    background: #d9374f !important; }
+  .logBottom .loginBtn {
+    width: 100%;
+    font: 12px/30px "microsoft yahei";
+    color: #fff;
+    background: #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: none; }
+  .logBottom .quickLogin {
+    width: 100%;
+    text-align: right;
+    display: block;
+    font: 14px/30px "microsoft yahei";
+    color: #666; }
+  .logBottom .logFooter {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .logBottom .logFooter .logLabel {
+      width: 100%;
+      text-align: center;
+      border-bottom: solid 1px #999; }
+      .logBottom .logFooter .logLabel span {
+        display: inline-block;
+        padding: 0 10px;
+        font: 14px/14px "microsoft yahei";
+        color: #999;
+        background: #E9E9E9;
+        position: relative;
+        top: 8px; }
+    .logBottom .logFooter ul {
+      width: 100%;
+      padding-top: 20px; }
+      .logBottom .logFooter ul li {
+        width: 33.3%; }
+        .logBottom .logFooter ul li a {
+          display: block;
+          width: 100%;
+          text-align: center; }
+          .logBottom .logFooter ul li a img {
+            width: 40px;
+            height: auto; }
+          .logBottom .logFooter ul li a p {
+            font: 14px/24px "microsoft yahei";
+            color: #666; }
+
+.regEntry li {
+  border-bottom: solid 1px #ddd; }
+
+.regEntry li:last-child {
+  border: none; }
+
+.regEntry .password {
+  border-top: none; }
+
+.regEntry .regCode .imgWrapper {
+  border-left: solid 1px #ddd; }
+  .regEntry .regCode .imgWrapper .sendCode, .regEntry .regCode .imgWrapper .retry {
+    font: 12px/40px "microsoft yahei";
+    color: #666; }
+  .regEntry .regCode .imgWrapper .retry {
+    display: none; }
+
+.regBottom {
+  width: 100%;
+  background: #E9E9E9;
+  min-height: 114px;
+  height: -moz-calc(100% - 366px);
+  height: -webkit-calc(100% - 366px);
+  height: calc(100% - 366px); }
+  .regBottom .agreement {
+    width: 100%;
+    padding: 20px 0; }
+    .regBottom .agreement input {
+      margin-left: 20px;
+      width: 16px;
+      height: 16px;
+      background: url(../img/yes.png) no-repeat; }
+    .regBottom .agreement input.noSelected {
+      background: url(../img/no.png) no-repeat; }
+    .regBottom .agreement label {
+      font: 12px/16px "microsoft yahei";
+      color: #999; }
+    .regBottom .agreement a {
+      color: #cd0011;
+      font: 12px/16px "microsoft yahei"; }
+  .regBottom .regBtn {
+    width: 100%;
+    text-align: center; }
+    .regBottom .regBtn h3 {
+      display: inline-block;
+      width: 90%;
+      font: 16px/36px "microsoft yahei";
+      background: #cd0011;
+      color: #fff;
+      border-radius: 5px; }

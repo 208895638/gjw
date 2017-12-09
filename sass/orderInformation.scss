@@ -1,0 +1,335 @@
+.orderInformation{
+    width:100%;
+    height:100%;
+    .head{
+        width:100%;
+        background: #fff;
+        ul{
+            width:60%;
+            height: 100%;
+            font: 600 14px/40px "microsoft yahei";
+            color: #666;
+            li{
+                width:33.3%;
+                text-align: center;
+                border-bottom:solid 2px #fff;
+            }
+        }
+    }
+    .orderIC{
+        width:100%;
+        height: -moz-calc(100% - 95px);
+        height: -webkit-calc(100% - 95px);
+        height: calc(100% - 95px);
+        overflow-y: auto;
+        .orderICT{
+            width:100%;
+            background: #c53371;
+            padding:10px 0;
+            .orderICTL{
+                width:80%;
+                padding-left:3%;
+                h2,h3{
+                    font-size: 14px;
+                    color:#fff;
+                    font-family: "微软雅黑";
+                    font-weight: 100;
+                }
+            }
+            .orderICTR{
+                width:14%;
+                padding-left: 3%;
+                h4{
+                    width:40px;
+                    height:40px;
+                    border-radius: 20px;
+                    background: #db85a8;
+                }
+            }
+        }
+        .oN{
+            width:100%;
+            
+            .oNT{
+                width:100%;
+                padding:10px 0;
+               margin-bottom: 1px;
+                background: #fff;
+                div{
+                    width:94%;
+                    margin:0 3%;
+                    span,em{
+                        font-size:12px;
+                        font-family: "微软雅黑";
+                        color:#666666;
+                    }
+                    em{
+                        margin-right:20px;
+                    }
+                }
+                
+            }
+            .oNB{
+                width:100%;
+                padding:10px 0;
+               
+                background: #fff;
+                div{
+                    width:94%;
+                    margin:0 3%;
+                    background: url(../img/sy_yjt.png) no-repeat right center;
+                    background-size: 14px;
+                    span,em{
+                        font-size:12px;
+                        font-family: "微软雅黑";
+                        color:#666666;
+                    }
+                    em{
+                        margin-right:20px;
+                    }
+                }
+                
+            }
+        }
+        .oD{
+            width:100%;
+            background: #fff;
+            margin-top:10px;
+            .oDCon{
+                width:94%;
+                padding:10px 3%;
+                .oDL{
+                    width:10%;
+                    i{
+                        font-size: 24px;
+                        color:#959595;
+                    }
+                }
+                .oDC{
+                    width:50%;
+                    h2,h3{
+                        font:12px/16px "微软雅黑";
+                        color:#797979;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        span{
+                            color:#303030;
+                             font:12px/16px "微软雅黑";
+                        }
+                    }
+                }
+                .oDR{
+                    width:40%;
+                    text-align: right;
+                    font:12px/16px "微软雅黑";
+                        color:#797979;
+                }
+            }
+        }
+        .oIn{
+            width:100%;
+            background: #fff;
+            margin-bottom: 10px;
+            dl{
+                width:94%;
+                padding:10px 3%;
+                dt{
+                    width:100%;
+                    .oInL{
+                        width:20%;
+                        img{
+                            height:60px;
+                        }
+                    }
+                    a{
+                        width:57%;
+                        margin-left: 3%;
+                        font:14px/20px "微软雅黑";
+                        color:#000;
+                    }
+                    .oInR{
+                        width:20%;
+                        h2{
+                            width:100%;
+                            text-align:right;
+                            color:#d8344d;
+                            font:14px/16px "微软雅黑";
+                            span{
+                                color:#d8344d; 
+                                font:14px/16px "微软雅黑";
+                            }
+                        }
+                        h3{
+                            font:12px/16px "微软雅黑";
+                            color:#464646;
+                            text-align:right;
+                        }
+                        .evaluate{
+                            width:100%;
+                            h5{
+                                font:12px/16px "微软雅黑";
+                                color:#464646;
+                                text-align:right;
+                            }
+                           
+                        }
+                    }
+                }
+                dd{
+                    width:90%;
+                    padding-left:10%;
+                    .oInL{
+                        width:20%;
+                        img{
+                            height:60px;
+                        }
+                    }
+                    .oInC{
+                        width:60%;
+                        font:14px/20px "微软雅黑";
+                        color:#000;
+                        span{
+                            width:40%; 
+                            font:14px/20px "微软雅黑";
+                            color:#ff5a60;                           
+                        }
+                        em{
+                            width:60%;
+                            font:14px/20px "微软雅黑";
+                        }
+                    }
+                    .oInR{
+                        width:20%;
+                        h2{
+                            width:100%;
+                            text-align:right;
+                            color:#d8344d;
+                            font:14px/16px "微软雅黑";
+                            span{
+                                color:#d8344d; 
+                                font:14px/16px "微软雅黑";
+                            }
+                        }
+                        h3{
+                            font:12px/16px "微软雅黑";
+                            color:#464646;
+                            text-align:right;
+                        }
+                        .evaluate{
+                            width:100%;
+                            h5{
+                                font:12px/16px "微软雅黑";
+                                color:#464646;
+                                text-align:right;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+        .oCen{
+            width:100%;
+            
+            h2{
+                width:100%;
+                background: #fff;
+                margin-bottom: 10px;
+                span{
+                    width:47%;
+                    margin-left:3%;
+                    font:12px/22px "微软雅黑";
+                    padding:5px 0;
+                }
+                em{
+                    width:47%;
+                    margin-right:3%;
+                    font:12px/22px "微软雅黑";
+                    padding:5px 0;
+                    color:#da334d;
+                    text-align:right;
+                }
+            }
+            ul{
+                width:100%;
+                background: #fff;
+                margin-bottom: 1px;           
+                li{
+                    width:100%;
+                    background: #fff;
+                    
+                    span{
+                        width:47%;
+                        margin-left:3%;
+                        font:12px/22px "微软雅黑";
+                        padding:5px 0;
+                    }
+                    em{
+                        width:47%;
+                        margin-right:3%;
+                        font:12px/22px "微软雅黑";
+                        padding:5px 0;
+                        color:#da334d;
+                        text-align:right;
+                    }
+                }
+            }
+            h3{
+                width:100%;
+                background: #fff;
+                
+                span{
+                    width:47%;
+                    margin-left:3%;
+                    font:12px/22px "微软雅黑";
+                    padding:5px 0;
+                }
+                em{
+                    width:47%;
+                    margin-right:3%;
+                    font:12px/22px "微软雅黑";
+                    padding:5px 0;
+                    color:#da334d;
+                    text-align:right;
+                }
+            }
+        }
+        
+    }
+    .oB{
+            width:100%;
+            padding:10px 0;
+            button{
+                font: 12px/22px "微软雅黑";
+                color:#fff;
+                padding:5px;
+                margin-right: 3%;
+                border-radius: 4px;
+            }
+            .oBL{
+                background: #fff;
+                color:#626262;
+            }
+            .oBR{
+                background: #d9374f;
+                color:#fff;
+            }
+        }
+    .confirmGoods{
+        width:100%;
+        padding:10px 0;
+        position: relative;
+        h2{
+            position: absolute;
+            font: 12px/22px "微软雅黑";
+            color:#fff;
+            padding:5px;
+            right: 3%;
+            border-radius: 4px;
+            background: #d9374f;
+            color:#fff;
+            display: inline-block;
+        }        
+    }
+}

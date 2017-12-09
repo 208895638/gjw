@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购酒网</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/logReg.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+	</head>
+	<body>
+		<div class="head clearfix">
+			<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+			<h3 class="l pageTitle">注册</h3>
+			<div class="editor l"></div>
+		</div>
+		<div class="regBanner">
+			<img src="../img/jiu3.jpg" alt="" />
+		</div>
+		<div class="regEntry borD">
+			<ul class="">
+				<li class="phone clearfix">
+					<i class="iconfont icon-shoujihao l"></i>
+					<input type="text" placeholder="请输入手机号" class="l"/>
+					<div class="imgWrapper r">
+						<img src="../img/gwc_guanbi.png" alt="" />
+					</div>
+				</li>
+				<li class="regCode clearfix">
+					<i class="iconfont icon-huantumdengluzhuceshoujiyanzhengma l"></i>
+					<input type="password" placeholder="请输入验证码" class="l"/>
+					<div class="imgWrapper r">
+						<div class="sendCode">获取验证码</div>
+						<div class="retry"><span>60</span>秒后重试</div>
+					</div>
+				</li>
+				<li class="password regPassword clearfix">
+					<i class="iconfont icon-mima l"></i>
+					<input type="password" placeholder="请输入密码" class="l" min="6"/>
+					<div class="imgWrapper r">
+						<img src="../img/dl_mima_off@2x.png" alt="" class="hidPsw"/>
+						<img src="../img/dl_mima_on@2x.png" alt="" class="showPsw"/>
+					</div>
+				</li>
+				<li class="password regPassword2 clearfix">
+					<i class="iconfont icon-mima l"></i>
+					<input type="password" placeholder="请输入密码" class="l"/>
+					<div class="imgWrapper1 r">
+						<img src="../img/dl_mima_off@2x.png" alt="" class="hidPsw"/>
+						<img src="../img/dl_mima_on@2x.png" alt="" class="showPsw"/>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="regBottom">
+			<div class="agreement">
+				<input type="radio" checked="checked" name="agree" class="agreeBtn"/>
+				<label for="argee">同意</label>
+				<a href="connection.html">《购酒网用户协议及服务条款》</a>
+			</div>
+			<div class="regBtn"><h3>注册</h3></div>
+		</div>
+		<script src="../js/plugins/zepto.min.js"></script>
+		<script src="../js/register.js"></script>
+	</body>
+</html>

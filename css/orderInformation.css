@@ -1,0 +1,296 @@
+@charset "UTF-8";
+.orderInformation {
+  width: 100%;
+  height: 100%; }
+  .orderInformation .head {
+    width: 100%;
+    background: #fff; }
+    .orderInformation .head ul {
+      width: 60%;
+      height: 100%;
+      font: 600 14px/40px "microsoft yahei";
+      color: #666; }
+      .orderInformation .head ul li {
+        width: 33.3%;
+        text-align: center;
+        border-bottom: solid 2px #fff; }
+  .orderInformation .orderIC {
+    width: 100%;
+    height: -moz-calc(100% - 95px);
+    height: -webkit-calc(100% - 95px);
+    height: calc(100% - 95px);
+    overflow-y: auto; }
+    .orderInformation .orderIC .orderICT {
+      width: 100%;
+      background: #c53371;
+      padding: 10px 0; }
+      .orderInformation .orderIC .orderICT .orderICTL {
+        width: 80%;
+        padding-left: 3%; }
+        .orderInformation .orderIC .orderICT .orderICTL h2, .orderInformation .orderIC .orderICT .orderICTL h3 {
+          font-size: 14px;
+          color: #fff;
+          font-family: "微软雅黑";
+          font-weight: 100; }
+        .orderInformation .orderIC .orderICT .orderICTL h3 {
+          display: none; }
+    .orderInformation .orderIC .orderICTR {
+      width: 14%;
+      padding-left: 3%; }
+      .orderInformation .orderIC .orderICTR h4 {
+        display: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background: #db85a8; }
+  .orderInformation .oN {
+    width: 100%; }
+    .orderInformation .oN .oNT {
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 1px;
+      background: #fff; }
+      .orderInformation .oN .oNT div {
+        width: 94%;
+        margin: 0 3%; }
+        .orderInformation .oN .oNT div span, .orderInformation .oN .oNT div em {
+          font-size: 12px;
+          font-family: "微软雅黑";
+          color: #666666; }
+        .orderInformation .oN .oNT div em {
+          margin-right: 20px; }
+    .orderInformation .oN .oNB {
+      width: 100%;
+      padding: 10px 0;
+      background: #fff; }
+      .orderInformation .oN .oNB div {
+        width: 94%;
+        margin: 0 3%;
+        background: url(../img/sy_yjt.png) no-repeat right center;
+        background-size: 14px; }
+        .orderInformation .oN .oNB div span, .orderInformation .oN .oNB div em {
+          font-size: 12px;
+          font-family: "微软雅黑";
+          color: #666666; }
+        .orderInformation .oN .oNB div em {
+          margin-right: 20px; }
+  .orderInformation .oD {
+    width: 100%;
+    background: #fff;
+    margin-top: 10px; }
+    .orderInformation .oD .oDCon {
+      width: 94%;
+      padding: 10px 3%; }
+      .orderInformation .oD .oDCon .oDL {
+        width: 10%; }
+        .orderInformation .oD .oDCon .oDL i {
+          font-size: 24px;
+          color: #959595; }
+      .orderInformation .oD .oDCon .oDC {
+        width: 50%; }
+        .orderInformation .oD .oDCon .oDC h2, .orderInformation .oD .oDCon .oDC h3 {
+          font: 12px/16px "微软雅黑";
+          color: #797979;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+          .orderInformation .oD .oDCon .oDC h2 span, .orderInformation .oD .oDCon .oDC h3 span {
+            color: #303030;
+            font: 12px/16px "微软雅黑"; }
+      .orderInformation .oD .oDCon .oDR {
+        width: 40%;
+        text-align: right;
+        font: 12px/16px "微软雅黑";
+        color: #797979; }
+  .orderInformation .oIn {
+    width: 100%;
+    background: #fff;
+    margin-bottom: 10px; }
+    .orderInformation .oIn dl {
+      width: 94%;
+      padding: 10px 3%; }
+      .orderInformation .oIn dl dt {
+        width: 100%; }
+        .orderInformation .oIn dl dt .oInL {
+          width: 20%; }
+          .orderInformation .oIn dl dt .oInL img {
+            height: 60px; }
+        .orderInformation .oIn dl dt a {
+          width: 57%;
+          margin-left: 3%;
+          font: 14px/20px "微软雅黑";
+          color: #000; }
+        .orderInformation .oIn dl dt .oInR {
+          width: 20%; }
+          .orderInformation .oIn dl dt .oInR h2 {
+            width: 100%;
+            text-align: right;
+            color: #d8344d;
+            font: 14px/16px "微软雅黑"; }
+            .orderInformation .oIn dl dt .oInR h2 span {
+              color: #d8344d;
+              font: 14px/16px "微软雅黑"; }
+          .orderInformation .oIn dl dt .oInR h3 {
+            font: 12px/16px "微软雅黑";
+            color: #464646;
+            text-align: right; }
+          .orderInformation .oIn dl dt .oInR .evaluate {
+            width: 100%; }
+            .orderInformation .oIn dl dt .oInR .evaluate a {
+              width: 100%;
+              display: block;
+              font: 12px/16px "微软雅黑";
+              color: #464646;
+              padding: 3px 0;
+              border: 1px solid #868686;
+              border-radius: 4px;
+              text-align: center;
+              text-decoration: underline; }
+            .orderInformation .oIn dl dt .oInR .evaluate h5 {
+              width: 100%;
+              font: 12px/16px "微软雅黑";
+              color: #464646;
+              padding: 3px 0;
+              border: 1px solid #868686;
+              border-radius: 4px;
+              text-align: center;
+              text-decoration: underline; }
+      .orderInformation .oIn dl dd {
+        width: 90%;
+        padding-left: 10%; }
+        .orderInformation .oIn dl dd .oInL {
+          width: 20%; }
+          .orderInformation .oIn dl dd .oInL img {
+            height: 60px; }
+        .orderInformation .oIn dl dd .oInC {
+          width: 60%;
+          font: 14px/20px "微软雅黑";
+          color: #000; }
+          .orderInformation .oIn dl dd .oInC span {
+            width: 40%;
+            font: 14px/20px "微软雅黑";
+            color: #ff5a60; }
+          .orderInformation .oIn dl dd .oInC em {
+            width: 60%;
+            font: 14px/20px "微软雅黑"; }
+        .orderInformation .oIn dl dd .oInR {
+          width: 20%; }
+          .orderInformation .oIn dl dd .oInR h2 {
+            width: 100%;
+            text-align: right;
+            color: #d8344d;
+            font: 14px/16px "微软雅黑"; }
+            .orderInformation .oIn dl dd .oInR h2 span {
+              color: #d8344d;
+              font: 14px/16px "微软雅黑"; }
+          .orderInformation .oIn dl dd .oInR h3 {
+            font: 12px/16px "微软雅黑";
+            color: #464646;
+            text-align: right; }
+          .orderInformation .oIn dl dd .oInR .evaluate {
+            width: 100%; }
+            .orderInformation .oIn dl dd .oInR .evaluate h5 {
+              font: 12px/16px "微软雅黑";
+              color: #464646;
+              text-align: right; }
+  .orderInformation .oCen {
+    width: 100%; }
+    .orderInformation .oCen h2 {
+      width: 100%;
+      background: #fff;
+      margin-bottom: 10px; }
+      .orderInformation .oCen h2 span {
+        width: 47%;
+        margin-left: 3%;
+        font: 12px/22px "微软雅黑";
+        padding: 5px 0; }
+      .orderInformation .oCen h2 em {
+        width: 47%;
+        margin-right: 3%;
+        font: 12px/22px "微软雅黑";
+        padding: 5px 0;
+        color: #da334d;
+        text-align: right; }
+    .orderInformation .oCen ul {
+      width: 100%;
+      background: #fff;
+      margin-bottom: 1px; }
+      .orderInformation .oCen ul li {
+        width: 100%;
+        background: #fff; }
+        .orderInformation .oCen ul li span {
+          width: 47%;
+          margin-left: 3%;
+          font: 12px/22px "微软雅黑";
+          padding: 5px 0; }
+        .orderInformation .oCen ul li em {
+          width: 47%;
+          margin-right: 3%;
+          font: 12px/22px "微软雅黑";
+          padding: 5px 0;
+          color: #da334d;
+          text-align: right; }
+    .orderInformation .oCen h3 {
+      width: 100%;
+      background: #fff; }
+      .orderInformation .oCen h3 span {
+        width: 47%;
+        margin-left: 3%;
+        font: 12px/22px "微软雅黑";
+        padding: 5px 0; }
+      .orderInformation .oCen h3 em {
+        width: 47%;
+        margin-right: 3%;
+        font: 12px/22px "微软雅黑";
+        padding: 5px 0;
+        color: #da334d;
+        text-align: right; }
+
+.oB {
+  display: none;
+  width: 100%;
+  padding: 10px 0; }
+  .oB button {
+    font: 12px/22px "微软雅黑";
+    color: #fff;
+    padding: 5px;
+    margin-right: 3%;
+    border-radius: 4px; }
+  .oB .oBL {
+    background: #fff;
+    color: #626262; }
+  .oB .oBR {
+    background: #d9374f;
+    color: #fff; }
+
+.confirmGoods {
+  display: none;
+  width: 100%;
+  padding: 10px 0;
+  position: relative; }
+  .confirmGoods h2 {
+    position: absolute;
+    font: 12px/22px "微软雅黑";
+    color: #fff;
+    padding: 5px;
+    right: 3%;
+    border-radius: 4px;
+    background: #d9374f;
+    color: #fff;
+    display: inline-block; }
+
+.removeOrder {
+  display: none;
+  width: 100%;
+  padding: 10px 0;
+  position: relative; }
+  .removeOrder h2 {
+    position: absolute;
+    font: 12px/22px "微软雅黑";
+    color: #fff;
+    padding: 5px;
+    right: 3%;
+    border-radius: 4px;
+    background: #d9374f;
+    color: #fff;
+    display: inline-block; }

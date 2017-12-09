@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购酒网</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<meta name="format-detection" content="telephone=yes" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="img/iconfont/iconfont.css">
+	
+	</head>
+	<body>
+		<!--可视区-->
+		<div id='view' style="-webkit-overflow-scrolling:touch;overflow:auto!important;">
+			
+		</div>
+		<!--底部导航栏-->
+		<nav id="foot">
+			<ul class="clearfix">
+				<li><a href="#home" class="current">
+					<div class="index_bot">
+						<!--<i class="iconfont icon-shouyeshouye"></i>-->
+						<img src="img/sy@2x.png" alt="" />
+						<img src="img/sy_on@2x.png" alt=""  style="display: none;"/>
+					</div>
+					
+					<p>首页</p></a></li>
+				<li><a href="#classify">
+					<!--<i class="iconfont icon-fenlei"></i>-->
+					<div class="index_bot">
+						<img src="img/fl@2x.png" alt="" />
+						<img src="img/fl_on@2x.png"  style="display: none;"/>
+					</div>
+					<p>分类</p></a></li>
+				<li><a href="#cart">
+					<!--<i class="iconfont icon-iconfont02"></i>-->
+					<div class="index_bot">
+						<img src="img/gwc@2x.png" alt="" />
+						<img src="img/gwc_on@2x.png" alt=""   style="display: none;"/>
+					</div>
+					<p>购物车</p></a></li>
+				<li><a href="#myself">
+					<!--<i class="iconfont icon-wodehui"></i>-->
+					<div class="index_bot">
+						<img src="img/wd@2x.png" alt="" />
+						<img src="img/wd_on@2x.png"  style="display: none;"/>
+					</div>
+					<p>我的</p></a></li>
+			</ul>
+		</nav>
+		<script src='js/plugins/zepto.min.js'></script>
+		<script src='js/plugins/vipspa.js'></script>
+		<script src="js/plugins/swiper.min.js"></script>
+		<script src='js/plugins/zp-md5.js'></script>
+		<script type="text/javascript"  src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script>
+			$(function() {
+				//启动前端路由
+				vipspa.start({
+					view:'#view',//匹配的路由信息 在那个元素显示
+					router:{ //路由配置
+						//状态:{templateUrl:'模板地址',controller:'js操作路径' }
+						"home":{
+							templateUrl:'views/home.html',
+							controller:'js/modules/home.js'
+						},
+						"classify":{
+							templateUrl:'views/classify.html',
+							controller:'js/modules/classify.js'
+						},
+						"cart":{
+							templateUrl:'views/cart.html',
+							controller:'js/modules/cart.js'
+						},
+						"myself":{
+							templateUrl:'views/myself.html',
+							controller:'js/modules/myself.js'
+						}
+					}
+				});
+				var hashValue=window.location.hash.substring(1);
+				if(hashValue == "undefined") { 
+					window.location.hash='home';
+				};
+			})
+	</script>
+	</body>
+</html>

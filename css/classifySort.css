@@ -1,0 +1,181 @@
+.searchHide {
+  display: none; }
+
+.searchSorthead {
+  padding: 5px 0; }
+  .searchSorthead span {
+    font: 20px/30px "microsoft yahei";
+    color: #666;
+    width: 15%; }
+  .searchSorthead a {
+    width: 70%;
+    display: block;
+    background: #e9e9e9;
+    border-radius: 4px; }
+    .searchSorthead a span {
+      font: 14px/28px "microsoft yahei";
+      color: #666;
+      width: 20%;
+      vertical-align: top;
+      margin-left: 8px; }
+    .searchSorthead a input {
+      font: 14px/28px "microsoft yahei";
+      border: none;
+      width: 80%;
+      background: #e9e9e9;
+      vertical-align: top; }
+  .searchSorthead .editor {
+    width: 15%;
+    font: 20px/30px "microsoft yahei";
+    color: #666;
+    text-align: center; }
+    .searchSorthead .editor .icon-pailiefangshi01 {
+      display: none; }
+
+.classifyNav {
+  width: 100%;
+  padding: 8px 0; }
+  .classifyNav li {
+    width: -moz-calc(25% - 1px);
+    width: -webkit-calc(25% - 1px);
+    width: calc(25% - 1px);
+    border-right: solid 1px #e9e9e9;
+    text-align: center;
+    font: 14px/30px "microsoft yahei";
+    color: #666666; }
+  .classifyNav li:last-child {
+    border-right: none; }
+  .classifyNav li.redWord {
+    color: #cd0011; }
+    .classifyNav li.redWord .selected {
+      display: block; }
+
+.goodsArea {
+  width: 100%;
+  height: -moz-calc(100% - 90px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
+  overflow-y: scroll;
+  background: #e9e9e9;
+  position: relative; }
+  .goodsArea .twoColumn li {
+    background: #fff; }
+    .goodsArea .twoColumn li .appraise {
+      display: none; }
+  .goodsArea .rowSort {
+    width: 100%;
+    background: #fff; }
+    .goodsArea .rowSort li {
+      width: 94%;
+      padding: 10px 3%; }
+      .goodsArea .rowSort li a {
+        display: block;
+        width: 100%; }
+        .goodsArea .rowSort li a .picWrapper {
+          float: left;
+          width: 80px;
+          height: 80px;
+          margin-right: 10px; }
+          .goodsArea .rowSort li a .picWrapper img {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        .goodsArea .rowSort li a .contentWrap {
+          float: left;
+          height: 80px;
+          width: -moz-calc(100% - 90px);
+          width: -webkit-calc(100% - 90px);
+          width: calc(100% - 90px); }
+          .goodsArea .rowSort li a .contentWrap p {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #000000; }
+          .goodsArea .rowSort li a .contentWrap .discount {
+            width: 100%;
+            height: 20px; }
+            .goodsArea .rowSort li a .contentWrap .discount i {
+              font: 12px/16px "microsoft yahei";
+              color: #fff;
+              margin-right: 8px;
+              border-radius: 2px;
+              padding: 2px; }
+          .goodsArea .rowSort li a .contentWrap .price strong {
+            display: block;
+            font: 12px/16px "microsoft yahei";
+            color: #cd0011; }
+          .goodsArea .rowSort li a .contentWrap .appraise {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #999; }
+
+.optionBar {
+  width: 100%;
+  height: -moz-calc(100% - 89px);
+  height: -webkit-calc(100% - 89px);
+  height: calc(100% - 89px);
+  overflow-y: scroll;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 89px; }
+  .optionBar .comprehensive, .optionBar .priceArea {
+    background: #fff;
+    display: none;
+    width: 97%;
+    padding-left: 3%; }
+    .optionBar .comprehensive .redWord h4, .optionBar .priceArea .redWord h4 {
+      color: #cd0011; }
+    .optionBar .comprehensive .redWord .selected, .optionBar .priceArea .redWord .selected {
+      display: block; }
+    .optionBar .comprehensive h4, .optionBar .priceArea h4 {
+      font: 14px/40px "microsoft yahei";
+      color: #666666; }
+    .optionBar .comprehensive .selected, .optionBar .priceArea .selected {
+      margin-right: 20px;
+      font: 14px/30px "microsoft yahei";
+      color: #cd0011;
+      display: none; }
+  .optionBar .vague {
+    height: -moz-calc(100% - 61px);
+    height: -webkit-calc(100% - 61px);
+    height: calc(100% - 61px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3); }
+
+.choose {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%; }
+  .choose .chooseContent, .choose .options {
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    background: #fff; }
+    .choose .chooseContent ul, .choose .options ul {
+      height: -moz-calc(100% - 43px);
+      height: -webkit-calc(100% - 43px);
+      height: calc(100% - 43px);
+      width: 97%;
+      padding-left: 3%;
+      overflow-y: scroll; }
+      .choose .chooseContent ul li, .choose .options ul li {
+        border-bottom: solid 1px #ddd;
+        width: 100%; }
+        .choose .chooseContent ul li .nameItem, .choose .chooseContent ul li .category, .choose .chooseContent ul li .selectedValue, .choose .chooseContent ul li p, .choose .options ul li .nameItem, .choose .options ul li .category, .choose .options ul li .selectedValue, .choose .options ul li p {
+          font: 14px/40px "microsoft yahei";
+          color: #000000; }
+        .choose .chooseContent ul li .selected, .choose .options ul li .selected {
+          display: none; }
+      .choose .chooseContent ul li:last-child, .choose .options ul li:last-child {
+        border-bottom: none; }
+    .choose .chooseContent .clearAllCondition, .choose .options .clearAllCondition {
+      width: 100%;
+      font: 12px/40px "microsoft yahei";
+      color: #999;
+      text-align: center; }
+  .choose .options {
+    display: none; }

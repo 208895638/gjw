@@ -1,0 +1,39 @@
+﻿@charset "UTF-8";
+.accountSafety .head {
+  background: #fff; }
+  .accountSafety .head h3 {
+    font-size: 16px;
+    font-family: "微软雅黑"; }
+
+.accountSafety ul a {
+  display: block; }
+  .accountSafety ul a li {
+    background: #fff url(../img/sy_yjt.png) no-repeat 95% center;
+    background-size: 16px;
+    margin-bottom: 1px; }
+    .accountSafety ul a li div {
+      padding: 5px 0; }
+      .accountSafety ul a li div h2 {
+        width: 94%;
+        font-size: 14px;
+        color: #000;
+        font-family: "微软雅黑";
+        padding: 5px 3%; }
+      .accountSafety ul a li div p {
+        width: 94%;
+        font-size: 12px;
+        color: #adadad;
+        font-family: "微软雅黑";
+        padding: 0 3%; }
+      .accountSafety ul a li div h2 span {
+        width: 50%;
+        font-size: 14px;
+        color: #000;
+        font-family: "微软雅黑"; }
+      .accountSafety ul a li div h2 em {
+        width: 43%;
+        font-size: 14px;
+        color: red;
+        font-family: "微软雅黑";
+        text-align: right;
+        padding-right: 7%; }

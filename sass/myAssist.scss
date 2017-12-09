@@ -1,0 +1,49 @@
+.myAssist{
+    .head{
+        background: #fff!important;
+        margin-bottom: 10px;
+        h3{
+            font-size: 14px;
+        }
+    }
+    ul{
+        li{
+            width:94%;
+            padding:10px 3%;
+            background: #fff;
+             border-bottom: 1px solid #e4e4e4; 
+            a{
+                width:100%;
+                display: block;
+                div{
+                    margin-right:10px;
+                    font-size: 14px;
+                    color:#000;
+                    font-family: "微软雅黑";
+                    img{
+                        height:16px;
+                    }
+                }
+                div:nth-child(2){
+                    width: -moz-calc(100% - 110px); 
+                    width: -webkit-calc(100% - 110px);
+                    width: calc(100% - 110px); 
+                    margin-right:10px;
+                }
+                div:nth-child(3){
+//                  text-indent: 1em;
+                    span,i{
+                        float:left;
+                        text-align:right;
+                    };
+                    span{
+                        width:40px;
+                    }
+                    i{
+                        width:16px;
+                    }
+                }
+            }
+        }
+    }
+}

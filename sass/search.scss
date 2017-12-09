@@ -1,0 +1,104 @@
+header{
+    .goback{
+        width:12%;
+        font:24px/30px "microsoft yahei";
+        color:#666;
+    }
+    .search{
+        background:#E9E9E9;
+        input{
+            width:80%;
+        }
+        i{
+            font: 14px/30px "microsoft yahei";
+            color:#666;
+            display:none;
+        }
+    }
+}
+.main{
+    width:100%;
+    height: -moz-calc(100% - 44px); 
+    height: -webkit-calc(100% - 44px);
+    height: calc(100% - 44px);
+    overflow: scroll;
+    background:#e9e9e9;
+    .searchDefault{
+        width:100%;
+        height:100%;
+        .sTitle{
+            padding-left:3%;
+            width:97%;
+            i,b{
+                font:16px/38px "microsoft yahei";
+                display:block;
+                color:#999;
+                margin-right:20px;
+            }
+            span{
+                font:16px/38px "microsoft yahei";
+                color:#666;
+                display:block;
+            }
+        }
+        .hotSearch{
+            width:100%;
+            background:#fff;
+            ul{
+                width:94%;
+                padding:8px 3%;
+                li{
+                    padding:6px 5px;
+                    background:#e9e9e9;
+                    margin-right:6px;
+                    border-radius: 4px;
+                    margin-bottom: 4px;
+                    a{
+                        font:14px/14px "microsoft yahei";
+                        color:#666;
+                        display:block;  
+                    }
+                }
+            }
+        }
+        .searchWhole{
+            width:100%;
+            background:#fff;
+            .searchRecord{
+                width:94%;
+                padding:3%;
+                overflow: auto;
+                li{
+                    width:94%;
+                    padding:0 3%;
+                    border-bottom: solid 1px #e9e9e9;
+                    a{
+                        font:12px/38px "microsoft yahei";
+                        color:#666;
+                        display:block;  
+                    }
+                }
+            }
+            .searchRecord:last-child{
+                border-bottom:none;
+            }
+        }
+    }
+    .searchAnswers{
+        width:94%;
+        padding:3%;
+        display: none;
+        background:#fff;
+        li{
+            width:94%;
+            padding:0 3%;
+            border-bottom: solid 1px #e9e9e9;
+            a{
+                font:12px/38px "microsoft yahei";
+                color:#666;
+                display:block;  
+            }
+        }
+    }
+    
+}

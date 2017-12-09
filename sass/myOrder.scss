@@ -1,0 +1,553 @@
+.myOrder{
+   height:100%;
+   overflow: hidden;
+   .myOrderHide{
+       display: none;
+   }
+    .head{
+        background:#fff;
+        h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+            width:67%;
+        }
+    }
+    .myOrderContent{
+        height:100%;
+        width:100%;
+        .myOrderEmptyPage{
+             width:100%;
+            height: -moz-calc(100% - 82px); 
+            height: -webkit-calc(100% - 82px);
+            height: calc(100% - 82px);
+            div{
+                width:100%;
+               
+                 padding-top: -moz-calc(50% - 25px); 
+                padding-top: -webkit-calc(50% - 25px);
+                 padding-top: calc(50% - 25px);
+                img{
+                    height:50px;
+                    margin-left: -moz-calc(50% - 25px); 
+                    margin-left: -webkit-calc(50% - 25px);
+                    margin-left: calc(50% - 25px);
+                }
+            }
+            h2{
+                text-align:center;
+                color:#C8C8C8;
+            }
+        }
+        .myOrderContentTop{
+            margin-bottom: 1px;
+            p{
+                width:20%;
+                text-align:center;
+                font-size: 14px;
+                font-family: "微软雅黑";
+                color:#000;
+                padding:10px 0;
+                background: #fff;
+            }
+            .myOrderContentShow{
+                color:red;
+            }
+        }
+        .myOrderContentBottom{
+            .myOrderShow{
+                display:block;
+            }
+            width:100%;
+           
+            height: -moz-calc(100% - 81px); 
+            height: -webkit-calc(100% - 81px);
+            height: calc(100% - 81px); 
+           
+            overflow-y:auto;
+//          ul{
+//              margin-bottom: 10px;
+//              li{
+//                  padding:10px 3%;
+//                  width:94%;
+//                  background: #fff;
+//                  margin-bottom: 1px;
+//                  a{
+//                      padding: 10px 0;
+//                      border-bottom: 1px solid #ccc;
+//                      display: block;
+//                  }
+//                 span{
+//                     width:60;
+//                     
+//                 }
+//                 em{
+//                     color:red;
+//                 }
+//                 h1{ width:18%;
+//                 margin-right: 2%;
+//                     img{
+//                        width:100%;
+//                     }
+//                 }
+//                 h2{
+//                     width:60%;
+//                     font-weight: 600;
+//                 }
+//                 h3{
+//                     width:20%;
+//                     font-size: 12px;
+//                     text-align:right;
+//                     padding-top:2px;
+//                     p{                         
+//                             color:red;
+//                             width:100%;
+//                             text-align:right;
+//                     }
+//                     i{
+//                         color:#000;
+//                     }
+//                 }
+//              }
+//              li:nth-child(2){
+//                  background: #e4e4e4;
+//              }
+//              li:nth-child(3){
+//                  text-align: right;
+//              }
+//              li:nth-child(4) a{
+//                  padding:5px 14px;
+//                  color:red;
+//                  border:1px solid red;
+//                  margin-left: 74%;
+//                  width:100%;
+//                  border-radius: 4px;
+//              }
+//          }
+            .myOrderOff{
+                display: none;
+            }
+        .mAll{
+                margin-bottom: 10px;
+            width:100%;
+               ul{
+                margin-bottom: 10px;
+                li{
+                    padding:10px 3%;
+                    width:94%;
+                    background: #fff;
+                    margin-bottom: 1px;
+                }
+                .mPT{
+                    span{
+                       width:60%;
+                        font-size: 12px;
+                        text-align:left;
+                   }
+                   em{
+                       color:red;
+                        font-size: 12px;
+                        text-align:right;
+                   }
+                }
+                .mPC{
+                     background: #e4e4e4;
+                    a{
+                       
+                        
+                        display: block;
+                       
+                        h1{ width:18%;
+                            margin-right: 2%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        h2{
+                            width:60%;
+                            font-weight: 100;
+                        }
+                        h3{
+                            width:20%;
+                            font-size: 12px;
+                            text-align:right;
+                            padding-top:2px;
+                            p{                         
+                                color:red;
+                                width:100%;
+                                text-align:right;
+                            }
+                           h6{
+                               b,i{
+                                 font-size: 12px;
+                                 color:#000;  
+                               }
+                           }
+                       }
+                    }
+                }
+                .mPCC{
+                    
+                    text-align: right;
+                    span,em,b{
+                        margin:0 4px;
+                        font-size: 12px;
+                    }
+                    em,b{
+                       color:red;
+                    }
+                }
+                .mPB{
+                    height:39px;
+                   position:relative;
+                    
+                    a{
+                        position: absolute;
+                        border-radius: 4px;
+                         padding:5px 14px;
+                        color:red;
+                        border:1px solid red;
+                        right:3%;
+                    }
+                }
+            }
+        }
+        .mPay{
+             margin-bottom: 10px;
+            width:100%;
+               ul{
+                margin-bottom: 10px;
+                li{
+                    padding:10px 3%;
+                    width:94%;
+                    background: #fff;
+                    margin-bottom: 1px;
+                    text-align: right; 
+                }
+                .mPT{
+                    span{
+                       width:60%;
+                        font-size: 12px;
+                        text-align:left;
+                   }
+                   em{
+                       color:red;
+                        font-size: 12px;
+                        text-align:right;
+                   }
+                }
+                .mPC{
+                     background: #e4e4e4;
+                    a{
+                       
+                        
+                        display: block;
+                       
+                        h1{ width:18%;
+                            margin-right: 2%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        h2{
+                            width:60%;
+                            font-weight: 100;
+                        }
+                        h3{
+                            width:20%;
+                            font-size: 12px;
+                            text-align:right;
+                            padding-top:2px;
+                            p{                         
+                                color:red;
+                                width:100%;
+                                text-align:right;
+                            }
+                           h6{
+                               b,i{
+                                 font-size: 12px;
+                                 color:#000;  
+                               }
+                           }
+                       }
+                    }
+                }
+                .mPCC{
+                    
+                    text-align: right;
+                    span,em,b{
+                        margin:0 4px;
+                        font-size: 12px;
+                    }
+                    em,b{
+                       color:red;
+                    }
+                }
+                .mPB{
+                    
+                   
+                    
+                    a{
+                        border-radius: 4px;
+                         padding:5px 14px;
+                    color:red;
+                    border:1px solid red;
+                    margin-left: 70%;
+                    }
+                }
+            }
+            }
+            .mFahuo{
+                  margin-bottom: 10px;
+                    width:100%;
+                       ul{
+                        margin-bottom: 10px;
+                        li{
+                            padding:10px 3%;
+                            width:94%;
+                            background: #fff;
+                            margin-bottom: 1px;
+                        }
+                        .mPT{
+                            span{
+                               width:60%;
+                                font-size: 12px;
+                                text-align:left;
+                           }
+                           em{
+                               color:red;
+                                font-size: 12px;
+                                text-align:right;
+                           }
+                        }
+                        .mPC{
+                             background: #e4e4e4;
+                            a{
+                               
+                                
+                                display: block;
+                               
+                                h1{ width:18%;
+                                    margin-right: 2%;
+                                    img{
+                                        width:100%;
+                                    }
+                                }
+                                h2{
+                                    width:60%;
+                                    font-weight: 100;
+                                }
+                                h3{
+                                    width:20%;
+                                    font-size: 12px;
+                                    text-align:right;
+                                    padding-top:2px;
+                                    p{                         
+                                        color:red;
+                                        width:100%;
+                                        text-align:right;
+                                    }
+                                   h6{
+                                       b,i{
+                                         font-size: 12px;
+                                         color:#000;  
+                                       }
+                                   }
+                               }
+                            }
+                        }
+                        .mPCC{
+                            
+                            text-align: right;
+                            span,em,b{
+                                margin:0 4px;
+                                font-size: 12px;
+                            }
+                            em,b{
+                               color:red;
+                            }
+                        }
+                        .mPB{
+                            
+                           
+                            
+                            a{
+                                border-radius: 4px;
+                                 padding:5px 14px;
+                            color:red;
+                            border:1px solid red;
+                            margin-left: 70%;
+                            }
+                        }
+                    }
+            }
+                .mPingjia{
+                  margin-bottom: 10px;
+                    width:100%;
+                       ul{
+                        margin-bottom: 10px;
+                        li{
+                            padding:10px 3%;
+                            width:94%;
+                            background: #fff;
+                            margin-bottom: 1px;
+                        }
+                        .mPT{
+                            span{
+                               width:60%;
+                                font-size: 12px;
+                                text-align:left;
+                           }
+                           em{
+                               color:red;
+                                font-size: 12px;
+                                text-align:right;
+                           }
+                        }
+                        .mPC{
+                             background: #e4e4e4;
+                            a{
+                               
+                              
+                                display: block;
+                               
+                                h1{ width:18%;
+                                    margin-right: 2%;
+                                    img{
+                                        width:100%;
+                                    }
+                                }
+                                h2{
+                                    width:60%;
+                                    font-weight: 100;
+                                }
+                                h3{
+                                    width:20%;
+                                    font-size: 12px;
+                                    text-align:right;
+                                    padding-top:2px;
+                                    p{                         
+                                        color:red;
+                                        width:100%;
+                                        text-align:right;
+                                    }
+                                   h6{
+                                       b,i{
+                                         font-size: 12px;
+                                         color:#000;  
+                                       }
+                                   }
+                               }
+                            }
+                        }
+                        .mPCC{
+                            
+                            text-align: right;
+                            span,em,b{
+                                margin:0 4px;
+                                font-size: 12px;
+                            }
+                            em,b{
+                               color:red;
+                            }
+                        }
+                        .mPB{
+                            
+                           
+                            
+                            a{
+                                border-radius: 4px;
+                                 padding:5px 14px;
+                            color:red;
+                            border:1px solid red;
+                            margin-left: 70%;
+                            }
+                        }
+                    }
+            }
+                .mShouhuo{
+                  margin-bottom: 10px;
+                    width:100%;
+                       ul{
+                        margin-bottom: 10px;
+                        li{
+                            padding:10px 3%;
+                            width:94%;
+                            background: #fff;
+                            margin-bottom: 1px;
+                        }
+                        .mPT{
+                            span{
+                               width:60%;
+                                font-size: 12px;
+                                text-align:left;
+                           }
+                           em{
+                               color:red;
+                                font-size: 12px;
+                                text-align:right;
+                           }
+                        }
+                        .mPC{
+                             background: #e4e4e4;
+                            a{
+                               
+                                
+                                display: block;
+                               
+                                h1{ width:18%;
+                                    margin-right: 2%;
+                                    img{
+                                        width:100%;
+                                    }
+                                }
+                                h2{
+                                    width:60%;
+                                    font-weight: 100;
+                                }
+                                h3{
+                                    width:20%;
+                                    font-size: 12px;
+                                    text-align:right;
+                                    padding-top:2px;
+                                    p{                         
+                                        color:red;
+                                        width:100%;
+                                        text-align:right;
+                                    }
+                                   h6{
+                                       b,i{
+                                         font-size: 12px;
+                                         color:#000;  
+                                       }
+                                   }
+                               }
+                            }
+                        }
+                        .mPCC{
+                            
+                            text-align: right;
+                            span,em,b{
+                                margin:0 4px;
+                                font-size: 12px;
+                            }
+                            em,b{
+                               color:red;
+                            }
+                        }
+                        .mPB{
+                            
+                           
+                            
+                            a{
+                                border-radius: 4px;
+                                 padding:5px 14px;
+                            color:red;
+                            border:1px solid red;
+                            margin-left: 70%;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}

@@ -1,0 +1,320 @@
+@charset "UTF-8";
+.fillOrder {
+  width: 100%;
+  height: 100%; }
+  .fillOrder .fillOrderHide {
+    display: none; }
+  .fillOrder .head {
+    background: #fff; }
+    .fillOrder .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+  .fillOrder .fillOrderContent {
+    width: 100%;
+    height: -moz-calc(100% - 90px);
+    height: -webkit-calc(100% - 90px);
+    height: calc(100% - 90px);
+    overflow-y: auto; }
+    .fillOrder .fillOrderContent .consigneeMessage {
+      margin: 6px 0; }
+      .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageExit {
+        width: 94%;
+        padding: 2% 3%;
+        background: #fafcee url(../img/p22_01.jpg) no-repeat left top;
+        background-size: 100%; }
+        .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageExit div {
+          width: 100%;
+          height: 100%;
+          background: #fafcee url(../img/sy_yjt.png) no-repeat 100% center;
+          background-size: 14px; }
+          .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageExit div h2 i {
+            width: 60%;
+            color: #666664;
+            font-family: "微软雅黑"; }
+          .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageExit div h2 span {
+            width: 40%;
+            font-family: "微软雅黑";
+            color: #454545; }
+          .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageExit div h3 {
+            color: #666664;
+            font-family: "微软雅黑"; }
+      .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis {
+        width: 94%;
+        padding: 2% 3%;
+        background: #fafcee url(../img/p22_01.jpg) no-repeat left top;
+        background-size: 100%; }
+        .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div {
+          width: 100%;
+          height: 100%;
+          background: #fafcee url(../img/sy_yjt.png) no-repeat 100% center;
+          background-size: 14px; }
+          .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div h2 {
+            padding: 10px 0; }
+            .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div h2 i, .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div h2 p {
+              color: #666664;
+              font-family: "微软雅黑"; }
+            .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div h2 span {
+              font-family: "微软雅黑";
+              color: #454545; }
+          .fillOrder .fillOrderContent .consigneeMessage .consigneeMessageDis div h3 {
+            padding: 5px 0;
+            color: #666664;
+            font-family: "微软雅黑"; }
+    .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo {
+      width: 94%;
+      padding: 10px 3%;
+      border-bottom: solid 1px #ddd;
+      background: #fff; }
+      .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .selectWrapper {
+        display: none;
+        width: 10%;
+        height: 80px;
+        text-align: left; }
+        .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .selectWrapper .selectItem {
+          margin-top: 32px;
+          height: 16px;
+          width: 16px;
+          background: url(../img/no.png) no-repeat;
+          border: none;
+          outline: none; }
+      .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent {
+        width: 100%; }
+        .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent img {
+          width: 25%; }
+        .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r {
+          width: 70%;
+          padding-left: 5%; }
+          .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r h4 {
+            width: 100%;
+            font: 12px/14px "microsoft yahei";
+            color: #888888;
+            height: 28px; }
+          .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom {
+            width: 100%; }
+            .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .con-l {
+              width: 70%; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .con-l .salesPromotion {
+                width: 100%; }
+                .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .con-l .salesPromotion i {
+                  font: 12px/16px "microsoft yahei";
+                  color: #fff;
+                  padding: 0 4px;
+                  border-radius: 2px; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .con-l strong {
+                width: 100%;
+                font: 14px/28px "microsoft yahei";
+                color: #f2132f; }
+                .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .con-l strong i {
+                  font-size: 14px; }
+            .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController {
+              float: right;
+              width: 10%;
+              height: 24px;
+              padding: 12px 0; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .subtract {
+                margin-right: 4px; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .subtract, .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .numShow, .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .add {
+                width: -moz-calc(33.3% - 2px);
+                width: -webkit-calc(33.3% - 2px);
+                width: calc(33.3% - 2px);
+                text-align: center;
+                color: #666;
+                font: 14px/22px "microsoft yahei"; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .subtract, .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .add {
+                color: #666; }
+              .fillOrder .fillOrderContent .fillOrderGoods .goodsInfo .goodsContent .gc-r .conBottom .numController .add {
+                display: none; }
+    .fillOrder .fillOrderContent .fillOrderGoods .gifts, .fillOrder .fillOrderContent .fillOrderGoods .addPrice, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts {
+      background: #fff;
+      display: block;
+      width: 85%;
+      padding: 0px 3% 0px 12%; }
+      .fillOrder .fillOrderContent .fillOrderGoods .gifts li, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li {
+        width: 100%;
+        padding: 6px 0; }
+        .fillOrder .fillOrderContent .fillOrderGoods .gifts li img, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li img, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li img {
+          width: 20%; }
+        .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR {
+          padding-left: 5%;
+          width: 75%; }
+          .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR p, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR p, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR p {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #000000; }
+            .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR p span, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR p span, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR p span {
+              color: #cd0011; }
+          .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR .giftsNum, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR .giftsNum, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR .giftsNum {
+            width: 100%;
+            text-align: right;
+            font: 12px/16px "microsoft yahei";
+            color: #666; }
+            .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR .giftsNum i, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR .giftsNum i, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR .giftsNum i {
+              font: 12px/16px "microsoft yahei";
+              color: #666; }
+            .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR .giftsNum p, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR .giftsNum p, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR .giftsNum p {
+              display: inline-block;
+              text-align: left;
+              width: 40px;
+              font: 12px/16px "microsoft yahei";
+              color: #cd0011; }
+              .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR .giftsNum p i, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR .giftsNum p i, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR .giftsNum p i {
+                font: 12px/16px "microsoft yahei";
+                color: #cd0011; }
+            .fillOrder .fillOrderContent .fillOrderGoods .gifts li .moR .giftsNum div, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .moR .giftsNum div, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .moR .giftsNum div {
+              font: 12px/16px "microsoft yahei";
+              color: #666; }
+        .fillOrder .fillOrderContent .fillOrderGoods .gifts li .swiperDel, .fillOrder .fillOrderContent .fillOrderGoods .addPrice li .swiperDel, .fillOrder .fillOrderContent .fillOrderGoods .fullGifts li .swiperDel {
+          width: 20%;
+          font: 16px/48px "microsoft yahei";
+          color: #fff;
+          background: #cd0011;
+          text-align: center;
+          display: none; }
+    .fillOrder .fillOrderContent .fillOrderGoods .discountDes {
+      display: none;
+      width: 100%;
+      border-bottom: solid 1px #ddd; }
+      .fillOrder .fillOrderContent .fillOrderGoods .discountDes p {
+        font: 14px/30px "microsoft yahei";
+        color: #999;
+        display: inline-block;
+        margin-left: 20px; }
+      .fillOrder .fillOrderContent .fillOrderGoods .discountDes a {
+        display: inline-block;
+        font: 14px/28px "microsoft yahei";
+        color: #999;
+        padding: 0 4px;
+        margin: 4px 0;
+        border-radius: 2px;
+        border: solid 1px #999;
+        margin-right: 20px; }
+    .fillOrder .fillOrderContent .fillOrderGoods .zeng {
+      background: #fff;
+      display: block;
+      width: 85%;
+      padding: 10px 3% 10px 12%;
+      border-bottom: solid 1px #ddd; }
+      .fillOrder .fillOrderContent .fillOrderGoods .zeng li {
+        width: 100%; }
+        .fillOrder .fillOrderContent .fillOrderGoods .zeng li img {
+          width: 20%;
+          height: 48px; }
+        .fillOrder .fillOrderContent .fillOrderGoods .zeng li .moR {
+          padding-left: 5%;
+          width: 75%; }
+          .fillOrder .fillOrderContent .fillOrderGoods .zeng li .moR p {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #000000; }
+            .fillOrder .fillOrderContent .fillOrderGoods .zeng li .moR p span {
+              color: #cd0011; }
+          .fillOrder .fillOrderContent .fillOrderGoods .zeng li .moR .giftsNum {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #666;
+            text-align: right; }
+    .fillOrder .fillOrderContent .fillOrderPayment ul {
+      width: 94%;
+      padding: 0 3%;
+      background: #fff;
+      border-bottom: 10px solid #eeeff3; }
+      .fillOrder .fillOrderContent .fillOrderPayment ul li {
+        padding: 10px 0;
+        border-bottom: 1px solid #d5d5d5; }
+        .fillOrder .fillOrderContent .fillOrderPayment ul li h2 {
+          width: 30%; }
+        .fillOrder .fillOrderContent .fillOrderPayment ul li h3, .fillOrder .fillOrderContent .fillOrderPayment ul li h4, .fillOrder .fillOrderContent .fillOrderPayment ul li h5 {
+          width: 70%;
+          text-align: right; }
+        .fillOrder .fillOrderContent .fillOrderPayment ul li h3 span {
+          margin-right: 4px; }
+          .fillOrder .fillOrderContent .fillOrderPayment ul li h3 span input {
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+            background: url(../img/no.png) no-repeat; }
+            .fillOrder .fillOrderContent .fillOrderPayment ul li h3 span input i {
+              font: 12px/19px "microsoft yahei";
+              color: #fff; }
+        .fillOrder .fillOrderContent .fillOrderPayment ul li h3 span:first-child input {
+          background: url(../img/yes.png) no-repeat; }
+      .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(2), .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(3), .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(4) {
+        padding-right: 6%;
+        width: 94%;
+        background: url(../img/sy_yjt.png) no-repeat 100% center;
+        background-size: 16px; }
+      .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(2), .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(3) {
+        color: #e63f47; }
+        .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(2) span, .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(3) span {
+          color: #e63f47; }
+      .fillOrder .fillOrderContent .fillOrderPayment ul li:nth-child(4) h5 {
+        color: #9c9c9c; }
+      .fillOrder .fillOrderContent .fillOrderPayment ul li:last-child {
+        border: none; }
+    .fillOrder .fillOrderContent .fillOrderCoupon {
+      width: 100%;
+      background: #fff; }
+      .fillOrder .fillOrderContent .fillOrderCoupon ul {
+        width: 100%;
+        border-bottom: 10px solid #eeeff3; }
+        .fillOrder .fillOrderContent .fillOrderCoupon ul li {
+          padding: 10px 3% 10px 3%;
+          width: 94%;
+          border-bottom: 1px solid #f3f4f6; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li h2 {
+            width: 30%; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li input {
+            width: 65%;
+            text-align: right;
+            border: none;
+            font-size: 12px; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li input:focus {
+            outline: none; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li .imgWrapper {
+            display: inline-block;
+            width: 5%;
+            text-align: center;
+            height: 19px; }
+            .fillOrder .fillOrderContent .fillOrderCoupon ul li .imgWrapper img {
+              width: 14px;
+              height: 14px;
+              margin-top: 4px;
+              display: none; }
+        .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(2) h4, .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(3) h4 {
+          color: #c4c4c4; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(2) h4 span, .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(3) h4 span {
+            color: #888888; }
+        .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(1) {
+          background: url(../img/sy_yjt.png) no-repeat 96% center;
+          background-size: 16px; }
+          .fillOrder .fillOrderContent .fillOrderCoupon ul li:nth-child(1) h4 {
+            width: 64%;
+            text-align: right; }
+        .fillOrder .fillOrderContent .fillOrderCoupon ul li:last-child() {
+          border: none; }
+    .fillOrder .fillOrderContent .fillOrderText {
+      width: 100%; }
+      .fillOrder .fillOrderContent .fillOrderText textarea {
+        width: 94%;
+        padding: 3%;
+        resize: none;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        margin-bottom: 1px; }
+  .fillOrder .fillOrderBottom {
+    width: 97%;
+    padding-left: 3%;
+    background: #fff; }
+    .fillOrder .fillOrderBottom span, .fillOrder .fillOrderBottom a {
+      padding: 14px 0; }
+    .fillOrder .fillOrderBottom span {
+      width: 75%; }
+      .fillOrder .fillOrderBottom span em {
+        color: #cb0617;
+        margin-left: 5%; }
+    .fillOrder .fillOrderBottom a {
+      width: 25%;
+      background: #cb0617;
+      text-align: center;
+      color: #fff; }

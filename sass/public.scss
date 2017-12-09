@@ -1,0 +1,50 @@
+//头部样式
+.head{
+        background:#fff;
+        h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+}
+.bgColor{
+    background: #e4e4e4;
+}
+
+.borderFrame{
+    border:none;
+    outline: none;
+}
+
+.fontAll{
+    font-size: 14px;
+    color:#000;
+    font-family: "微软雅黑";
+}
+
+.goodsCollectionHide{
+        display: none;
+    }
+    
+.goodsCollectionPage{
+        width:100%;
+        height: -moz-calc(100% - 43px); 
+        height: -webkit-calc(100% - 43px);
+        height: calc(100% - 43px);
+        div{
+            width:100%;
+           
+             padding-top: -moz-calc(50% - 25px); 
+            padding-top: -webkit-calc(50% - 25px);
+             padding-top: calc(50% - 25px);
+            img{
+                height:50px;
+                margin-left: -moz-calc(50% - 25px); 
+                margin-left: -webkit-calc(50% - 25px);
+                margin-left: calc(50% - 25px);
+            }
+        }
+        h2{
+            text-align:center;
+            color:#cbcbcb;
+        }
+}

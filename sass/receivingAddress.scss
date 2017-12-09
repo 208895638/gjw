@@ -1,0 +1,113 @@
+.receivingAddress{
+    width:100%;
+    .head{
+        background:#fff;
+        h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+    }
+    form{
+        
+        p{
+            width:100%;
+            margin-bottom: 1px;
+            font-size: 14px;
+            background: #fff;
+            color:#636363;
+            label{
+                width:22%;
+                padding:10px 2%;
+                font-family: "微软雅黑";
+            }
+            input{
+                margin-top:10px;
+                width:74%;
+                border:none;
+                outline: none;
+                font-size: 12px;
+                font-family: "微软雅黑";
+                color:#636363;
+            }
+        }
+        .reThree{
+            margin-bottom: 1px;
+            font-size: 14px;
+            background: #fff;
+            color:#636363;
+            width:100%;
+            label{
+                width:22%;
+                padding:10px 2%;
+                font-family: "微软雅黑";
+            }
+            div{
+                margin-top:10px;
+                width:73%;
+                border:none;
+                outline: none;
+                select{
+                    width:30%;
+                    font-size: 14px;
+                    font-family: "微软雅黑";
+                    color:#636363;
+                    outline: none;
+                    font-size: 12px;
+                    font-family: "微软雅黑";
+                    color:#636363;
+                }
+            }
+        }
+        .defaultAddress{
+            margin-bottom: 1px;
+            font-size: 14px;
+            background: #fff;
+            color:#636363;
+            width:100%;
+            label{
+                width:46%;
+                padding:10px 2%;
+                font-family: "微软雅黑";
+            }
+            span{
+                width:15%;
+                padding-left:35%;
+                img{
+                    height:35px;
+                    display:none;
+                }
+                .show{
+                    display: block;
+                }
+            }
+        }
+        h3{
+            width:94%;
+            color:#d0635e;
+            font-size: 12px;
+            text-indent: 1em;
+            padding:4px 3%;
+            background:#fff0d9 url(../img/gwc_zhuy@2x.png) no-repeat 3% center;
+            background-size: 12px;
+            margin-bottom:25px;
+            
+        }
+        
+    }
+    button{
+            margin:0 3%;
+            width:94%;
+            background: #d9374f;
+            font-size: 14px;
+            color:#fff;
+            padding:10px 0;
+            text-align:center;
+            outline: none;
+            border: none;
+        }
+}
+#showCityPicker3{
+    font-family: "微软雅黑";
+    color:#636363;
+    font-size: 14px;
+}

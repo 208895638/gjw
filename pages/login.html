@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购酒网</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" href="../css/logReg.css" />
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+	</head>
+	<body>
+		<div class="head clearfix">
+			<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+			<h3 class="l pageTitle">登录</h3>
+			<a class="editor l" href="register.html">注册</a>
+		</div>
+		<div class="loginBanner">
+			<img src="../img/jiu3.jpg" alt="" />
+		</div>
+		<div class="logEntry borD">
+			<div class="phone clearfix">
+				<i class="iconfont icon-shoujihao l"></i>
+				<input type="text" placeholder="请输入手机号" class="l"/>
+				<div class="imgWrapper r">
+					<img src="../img/gwc_guanbi.png" alt="" />
+				</div>
+			</div>
+			<div class="password clearfix">
+				<i class="iconfont icon-mima l"></i>
+				<input type="password" placeholder="请输入密码" class="l"/>
+				<div class="imgWrapper r">
+					<img src="../img/dl_mima_off@2x.png" alt="" class="showPsw" state="1"/>
+					<img src="../img/dl_mima_on@2x.png" alt=""  state="2"/>
+				</div>
+			</div>
+		</div>
+		<div class="logBottom">
+			<a class="getPassword" href="retrievePassword.html">
+				忘记密码?
+			</a>
+			<button class="loginBtn" disabled="disabled">
+				登录
+			</button>
+			<a class="quickLogin" href="phoneQuickLanding.html">
+				手机号快捷登录
+			</a>
+		</div>
+		<script src="../js/plugins/zepto.min.js"></script>
+		<script type="text/javascript" src="../js/plugins/zp-md5.js"></script>
+		<script src="../js/login.js"></script>
+	</body>
+</html>

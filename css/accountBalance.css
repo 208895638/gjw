@@ -1,0 +1,73 @@
+﻿@charset "UTF-8";
+.accountBalance {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden; }
+  .accountBalance .head {
+    background: #fff; }
+    .accountBalance .head h3 {
+      font-size: 16px;
+      font-family: "微软雅黑"; }
+  .accountBalance h2 {
+    width: 94%;
+    background: #d9374f;
+    padding: 10px 3%;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-family: "微软雅黑"; }
+  .accountBalance h1 {
+    width: 94%;
+    padding: 14px 3%;
+    position: relative; }
+    .accountBalance h1 .dashLine {
+      border-bottom: solid 1px #666; }
+    .accountBalance h1 span {
+      padding: 0 20px;
+      position: absolute;
+      font: 12px/12px "微软雅黑";
+      color: #666;
+      left: 50%;
+      margin-left: -44px;
+      top: 7px;
+      background: #e4e4e4; }
+  .accountBalance .aBeContent {
+    width: 100%;
+    height: 100%; }
+    .accountBalance .aBeContent .aBeContentRecord {
+      margin-top: -moz-calc(50% - 55px);
+      margin-top: -webkit-calc(50% - 55px);
+      margin-top: calc(50% - 55px);
+      width: 100%;
+      text-align: center; }
+      .accountBalance .aBeContent .aBeContentRecord img {
+        height: 80px;
+        width: 80px; }
+      .accountBalance .aBeContent .aBeContentRecord h4 {
+        width: 100%;
+        text-align: center;
+        color: #999;
+        font: 16px/30px "微软雅黑"; }
+    .accountBalance .aBeContent .aBeContentBottom {
+      height: -moz-calc(100% - 43px);
+      height: -webkit-calc(100% - 43px);
+      height: calc(100% - 43px);
+      overflow-y: auto; }
+      .accountBalance .aBeContent .aBeContentBottom ul {
+        padding: 0 0 0 3%;
+        width: 97%;
+        background: #fff; }
+        .accountBalance .aBeContent .aBeContentBottom ul li {
+          padding: 10px 0 10px 0;
+          border-bottom: 1px solid #e4e4e4; }
+          .accountBalance .aBeContent .aBeContentBottom ul li span {
+            width: 85%; }
+            .accountBalance .aBeContent .aBeContentBottom ul li span h1 {
+              color: #494949;
+              margin-bottom: 10px; }
+            .accountBalance .aBeContent .aBeContentBottom ul li span h4 {
+              color: #a7a7a7; }
+          .accountBalance .aBeContent .aBeContentBottom ul li em {
+            width: 15%; }
+    .accountBalance .aBeContent .accountBalanceOff {
+      display: none; }

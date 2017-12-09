@@ -1,0 +1,101 @@
+.integral{
+    width:100%;
+    height:100%;
+    overflow-y: hidden;
+    .integralHide{
+        display:none;
+    }
+    .head{
+       background:#fff;
+       h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+       }
+    }
+    .integralContent{
+       height:100%;
+        h2{
+           width:94%;
+            padding:10px 3%;
+            font-size:14px;
+            color:#fff;
+            background:#bf0010; 
+        }
+        .integralTab{
+            ul{
+                width:100%;
+                li{
+                    width:50%;
+                    padding:10px 0;
+                    font-size:14px;
+                    text-align: center;
+                    font-family: "微软雅黑";
+                    background: #fff;
+                    border-bottom: 2px solid #e4e4e4;
+                }
+                .integralTabColor{
+                    color:red;
+                    border-bottom: 2px solid red;
+                }
+            }
+        }
+        .integralTabCon{
+            width:100%;
+            height: -moz-calc(100% - 120px); 
+            height: -webkit-calc(100% - 120px);
+            height: calc(100% - 120px); 
+            overflow-y: auto;
+//          background: #db3752;
+            .integralPage{
+                position:relative;
+                height:100%; 
+                div{
+                    position: absolute;
+                    top: -moz-calc(50% - 25px); 
+                    top: -webkit-calc(50% - 25px);
+                    top: calc(50% - 25px); 
+                    left: -moz-calc(50% - 25px); 
+                    left: -webkit-calc(50% - 25px);
+                    left: calc(50% - 25px); 
+                    img{
+                        height:50px;
+                        
+                    }
+                } 
+                h4{
+                   position: absolute;
+                   width:100%;
+                   text-align:center;
+                    top: -moz-calc(50% - -28px); 
+                    top: -webkit-calc(50% - -28px);
+                    top: calc(50% - -28px); 
+                    color:#636363;  
+                }
+            }
+            ul{ 
+                padding:0 0 0 3%;
+                width:97%;background: #fff;
+                li{
+                    padding:10px 0 10px 0;
+                   border-bottom: 1px solid #e4e4e4;
+                    span{
+                        width:76%;
+                        h1{
+                            color:#494949;
+                            margin-bottom: 8px;
+                        }
+                        h4{
+                            color:#a7a7a7;
+                        }
+                    }
+                    em{
+                        width:24%;
+                    }
+                }
+            }
+        }
+        .integralTabHide11{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/personalCenter.css" />
+	</head>
+	<body class='bgColor'>
+		<div class='personalCenter'>
+			<div class="head clearfix">
+				<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+				<h3 class="l pageTitle" >我的信息</h3>		
+			</div>
+			<div class='personalContent'>
+				<form action="">
+					<ul>
+						<li class='pTouxiang'>
+							<a href="javascript:;" class='clearfix touxiang'>
+								<h2 class='l'>个人头像</h2>
+								<h3 class='l'><span><img src="../img/cs1.jpg" alt=""  id="blah"/></span></h3>
+							</a>
+						</li>
+						
+						<li class='clearfix pPhone'><span class='l '>手机号</span><em class='r'>122</em></li>
+						<li class='clearfix pName'><span class='l '>昵称</span><textarea class="r over" name="" rows="1" cols="4"></textarea></li>
+						<li class='clearfix pSex'>
+							<span class='l'>性别</span>
+							<select name="" class='r'>
+								<option value="">男</option>
+								<option value="">女</option>
+							</select>
+						</li>
+						<li class='pAddress'><a href="addressMange.html">地址管理</a></li>
+						<li class='pAccount'><a href="accountSafety.html?1">账号与安全</a></li>
+					</ul>
+					
+				</form>
+				<button>保存</button>
+			</div>
+		</div>
+		<div class='pcMask pCHide'>
+			<div class='pcMaskContent'>
+				<div>
+					
+				</div>
+				<ul >
+					<!--<li class='fontAll'>
+						拍照
+						<form id="form1" runat="server">
+							<input type="file" accept="image/*" capture="camera" class="photoPic">				
+						</form>
+					</li>-->
+					<li class='fontAll' id='imgInp'>
+						从图库选择图片
+						<form id="form1" runat="server">
+							<input type='file' class="columnPic" capture="camera"/>						
+						</form>
+					</li>
+					<li class='fontAll pCLast'>
+						取消
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</body>
+	<script src="../lib/jquery-1.10.2.min.js"></script>
+	<script src="../js/plugins/jq-md5.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/personalCenter.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,35 @@
+.showArea{
+    width:100%;
+    height: -moz-calc(100% - 43px); 
+    height: -webkit-calc(100% - 43px);
+    height: calc(100% - 43px);
+    overflow-y:scroll;
+    background: #e9e9e9;
+    dl{
+        width:100%;
+        dt{
+            background: #e9e9e9;
+            .centerWrapper{
+                font:14px/20px "microsoft yahei";
+                color:#666;
+                padding-left:5px;
+                padding-right:5px;
+            }
+        }
+        .sellSoon{
+            background:#fff;
+            dd{
+                .secKillContent{
+                    .secKillPrice{
+                        .remindBtn{
+                            display:none;
+                        }
+                        .cancelRemindBtn{
+                            display:block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

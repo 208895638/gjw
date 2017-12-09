@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/detail.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/swiper.min.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css" media="screen" />
+		<link rel="stylesheet" href="../css/mui.picker.min.css" />
+	</head>
+	<body>
+		<div class="head clearfix">
+			<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+			<ul class="l clearfix">
+				<li class="l detailCurrent">商品</li>
+				<li class="l">详情</li>
+				<li class="l">评价</li>
+			</ul>
+			<a class="editor l iconfont icon-zuji1" href="browserRecord.html"></a>
+		</div>
+		<ul class="fView" style="-webkit-overflow-scrolling:touch;overflow:auto!important;">
+			<li class="goods fItem">
+				<div class="detailBanner swiper-container">
+					<ul class="clearfix swiper-wrapper">
+						
+						<!--<li class="l swiper-slide"></li>
+						<li class="l swiper-slide"></li>
+						<li class="l swiper-slide"></li>-->
+					</ul>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="detailInfo borD">
+					<p class="detailName"></p>
+					<h2 class='miaoshu'></h2>
+					<div class="reserve">
+						<div class='miaosha clearfix'>
+							<div class='l '>
+								¥<span class='bzPrice'></span>
+							</div>
+							<div class='l '>
+								购酒价：<span class=''>¥</span><del class=''></del>
+							</div>
+						</div>
+						<div class='putong clearfix' style='display: none;'>
+							<span class='l '>
+								掌上秒拍
+							</span>
+							<span class='l '>
+								剩余 <em class=''></em>
+							</span>
+						</div>
+					</div>
+					<div class='reserve1 detailHide'>
+						¥<span></span>
+					</div>
+					<!--<div class="priceLabel clearfix">
+						<div class="fullCut l">满减</div>
+						<div class="flashSale l">满赠</div>
+						<div class="fullCut l">赠品</div>
+						<div class="gift l">加价购</div>
+					</div>-->
+					<div class="guarantee">
+						<i class="iconfont icon-101"></i><span>正品保障</span>
+						<i class="iconfont icon-baoyou"></i><span>满百包邮</span>
+						<i class="iconfont icon-xianxingpeifu"></i><span>破损就赔</span>
+					</div>
+				</div>
+				<div class="interval">
+					
+				</div>
+				<div class='youhui'>
+					<!--<div class='promotionalGifts  fontAll clearfix' style='display:none'>
+						<h2 class='fontAll l'>促销
+							<span class='fontAll'>赠品</span>
+						</h2>
+						<p  class='fontAll l over'>52度 茅台集团 习酒经典玉叶V11 500ml</p>
+					</div>-->
+				</div>
+				
+				<ul class="buyerSelect borD">
+					<li class="amount clearfix">
+						<div class="labelItem l">数量</div>
+						<div class="numController l clearfix">
+							<div class="subtract l">-</div>
+							<div class="numShow l">1</div>
+							<div class="add l">+</div>
+						</div>
+					</li>
+					<li class="clearfix address">
+						<div class="labelItem l">送至</div>
+						<div class="area l">
+							<div id='showCityPicker3' style='font-size: 14px;font-family: "微软雅黑";' addressid="1"></div>
+						</div>
+						<div class="status l">有货</div>
+						<div class="iconfont icon-gengduo l dMore"></div>
+					</li>
+					<li class='coupon clearfix'>
+						<div class="l cou">优惠券</div>
+						<div class="noCon l">不可使用优惠券</div>
+					</li>
+					<li class="payment clearfix">
+						<div class="l labelItem">在线支付</div>
+						<div class="method l">该商品仅支持在线支付</div>
+					</li>
+					<li class="prompt clearfix">
+						<div class="l labelItem">提示</div>
+						<div class="promptContent l">每购买两瓶，即送原厂手提袋1个</div>
+					</li>
+				</ul>
+				<div class="interval"></div>
+				<div class="assess">
+					<div class="assTitle clearfix">
+						<div class="l assLabel">商品评价</div>
+						<div class="personNum l">(<i>999</i>人评价)</div>
+						<div class="iconfont icon-gengduo r dMore"></div>
+						<div class="r goodRate">好评度<i>88%</i></div>
+					</div>
+					<ul class="assesss">
+						
+					</ul>
+					<div class="interval"></div>
+					<div class="seeMoreComment borD">查看更多评论</div>
+				</div>
+			</li>
+			<li class="detailsPic fItem">
+				
+			</li>
+			<li class="evaluation fItem">
+				<dl class="elNav clearfix">
+					<dd class="evalCurrent" state="0">
+						<h4>全部</h4>
+						<p>0</p>
+					</dd>
+					<dd state="1">
+						<h4>好评</h4>
+						<p>0</p>
+					</dd>
+					<dd state="2">
+						<h4>中评</h4>
+						<p>0</p>
+					</dd>
+					<dd state="3">
+						<h4>差评</h4>
+						<p>0</p>
+					</dd>
+					<dd state="4">
+						<h4>晒图</h4>
+						<p>0</p>
+					</dd>
+				</dl>
+				<div class="sView">
+					<ul class="allEvalution ulItem">
+						
+					</ul>
+					<ul class="goodComment ulItem">
+						
+					</ul>
+					<ul class="midComment ulItem">
+						
+					</ul>
+					<ul class="badComment ulItem">
+						
+					</ul>
+					<ul class="BuyerShow ulItem">
+						
+					</ul>
+					<div class="commentEmpty">
+						<div>
+							<img src="../img/wodedingdan.png" alt="" />
+						</div>
+						<h2 class='fontAll'>暂无评论</h2>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<ul class="fnNav clearfix">
+			<li class=" l">
+				<a href="../index.html#cart">
+					<div class="detailGwc">
+						<img src="../img/nav_gouwuche_s.png" alt="" />
+					</div>
+					<p>购物车</p>
+				</a>
+				<h2>0</h2>
+			</li>
+			<li class="l">
+				<div class='shouchang'>
+					<div class="iconfont sC icon-pingjiaxingxing1" style='font-size: 20px;'></div>
+					<div class="iconfont sC icon-pingjiaxingxing fontHide" style='font-size: 20px;'></div>
+				</div>
+				
+				<p>收藏</p>
+			</li>
+			<!--<li class="l">
+				<a href="javascript:;">
+					<div class="iconfont icon-kefu"></div>
+					<p>客服</p>
+				</a>
+			</li>-->
+			<li class="goBuy r">
+				立即购买
+			</li>
+			<li class="addCart r">
+				加入购物车
+			</li>
+		</ul>
+		<div class='photoDetail'>
+			
+		</div>
+		<div class='zpcx detailHide'>
+			<div class='zpcxB'>
+				<h2 class='clearfix fontAll'>
+					<span class='l fontAll'>&nbsp</span>
+					<em class='l fontAll'>赠品（赠完即止）</em>
+					<sapn class='l fontAll zpcxhide'>X</sapn>
+				</h2>
+				<div class='clearfix '>
+					<!--<h3 class='fontAll l'>
+						
+					</h3>
+					<em class='l fontAll'>
+						
+					</em>-->
+					<dl class='clearfix'>
+						<dt class='l'>
+							<img src="../img/cs1.jpg" alt="" />
+						</dt>
+						<dd class='l'>
+							52度 茅台集团 习酒经典 玉叶 V11 500ml
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class='buyNow' style='display: none;'>
+			<div class='bNEmpty'>
+				
+			</div>
+			<div class='bNcontent'>
+				<div class='clearfix bNT'>
+					<div class='l bNTL'>
+						<img src="../img/cs1.jpg" alt="" />
+					</div>
+					<div class='l bNTC'>
+						<h2>
+							¥<em>217</em>
+						</h2>
+						<h3>库存<i>204</i>件</h3>
+						<h4>请选择份数</h4>
+					</div>
+					<div class='r bNTR'>
+						X
+					</div>
+				</div>
+				<div class='bNB'>								
+					<div class='bNBT clearfix'>
+						<h2 class='l'>购买件数</h2>
+						<div class='r clearfix'>
+							<span class='l'>-</span>
+							<div class="checkNum l">
+								1
+							</div>
+							<em class='l'>+</em>
+						</div>
+					</div>
+					<div class='bNBB'>
+						<button>确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/plugins/mui.min.js"></script>
+		<script type="text/javascript" src="../lib/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../source/jquery.fancybox.pack.js"></script>
+		<script src="../js/plugins/swiper.jquery.min.js"></script>
+		<script type="text/javascript" src="../js/plugins/mui.picker.js"></script>
+		<script type="text/javascript" src="../js/plugins/mui.poppicker.js"></script>
+		<script type="text/javascript" src="../js/plugins/city.data-4.js"></script>
+		<script>
+			(function($, doc) {
+				$.init();
+				$.ready(function() {
+					//级联示例
+					var cityPicker3 = new $.PopPicker({
+						layer : 3
+					});
+					cityPicker3.setData(cityData3);
+					var showCityPickerButton = doc.getElementById('showCityPicker3');
+					showCityPicker3.innerText = "北京市 北京市 东城区";
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker3.show(function(items) {
+							showCityPicker3.innerText = "" + (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+							showCityPicker3.setAttribute("addressid",items[2].value);
+							var hr=window.location.href;
+							var spid=hr.split('?')[1];
+							console.log(items[2].value,spid);
+							mui.ajax('http://g.china-mail.com.cn/h_user/IsHaveStockByCountyID',{
+								data:{
+									countyid:items[2].value,
+									pro_ProductId:spid,
+								},
+								dataType:'json',//服务器返回json格式数据
+								type:'get',             
+								success:function(res){
+									console.log(res.msg);
+									document.getElementsByClassName('status')[0].innerHTML=res.msg;
+								},
+							})
+						});
+					}, false);
+				});
+			})(mui, document);
+			$(function() {
+				var mySwiper = new Swiper ('.swiper-container', {
+			    direction: 'horizontal',
+			    loop: true,
+			    autoplay:2000,
+			    // 如果需要分页器
+			    pagination: '.swiper-pagination',
+			 	});
+				$(document).ready(function() { 
+					$('.fancybox').fancybox(); 
+				});
+			})
+		</script>
+		<script src="../js/detail.js"></script>
+	</body>
+</html>

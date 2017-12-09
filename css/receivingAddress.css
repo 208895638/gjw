@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.receivingAddress {
+  width: 100%; }
+  .receivingAddress .head {
+    background: #fff; }
+    .receivingAddress .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+  .receivingAddress form p {
+    width: 100%;
+    margin-bottom: 1px;
+    font-size: 14px;
+    background: #fff;
+    color: #636363; }
+    .receivingAddress form p label {
+      width: 22%;
+      padding: 10px 2%;
+      font-family: "微软雅黑"; }
+    .receivingAddress form p input {
+      margin-top: 10px;
+      width: 70%;
+      border: none;
+      outline: none;
+      text-align: right;
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #636363; }
+  .receivingAddress form .reThree {
+    margin-bottom: 1px;
+    font-size: 14px;
+    color: #636363;
+    width: 100%;
+    background: #fff url(../img/sy_yjt.png) no-repeat 97% center;
+    background-size: 14px; }
+    .receivingAddress form .reThree label {
+      width: 22%;
+      padding: 10px 2%;
+      font-family: "微软雅黑"; }
+    .receivingAddress form .reThree div {
+      margin-top: 10px;
+      width: 50%;
+      border: none;
+      outline: none; }
+      .receivingAddress form .reThree div select {
+        width: 30%;
+        font-size: 14px;
+        font-family: "微软雅黑";
+        color: #636363;
+        outline: none;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        color: #636363; }
+  .receivingAddress form .defaultAddress {
+    margin-bottom: 1px;
+    font-size: 14px;
+    background: #fff;
+    color: #636363;
+    width: 100%; }
+    .receivingAddress form .defaultAddress label {
+      width: 46%;
+      padding: 10px 2%;
+      font-family: "微软雅黑"; }
+    .receivingAddress form .defaultAddress span {
+      width: 15%;
+      padding-left: 35%; }
+      .receivingAddress form .defaultAddress span img {
+        height: 35px;
+        display: none; }
+      .receivingAddress form .defaultAddress span .show {
+        display: block; }
+  .receivingAddress form h3 {
+    width: 94%;
+    color: #d0635e;
+    font-size: 12px;
+    text-indent: 1em;
+    padding: 4px 3%;
+    background: #fff0d9 url(../img/gwc_zhuy@2x.png) no-repeat 3% center;
+    background-size: 12px;
+    margin-bottom: 25px; }
+  .receivingAddress button {
+    margin: 0 3%;
+    width: 94%;
+    background: #d9374f;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+    outline: none;
+    border-radius: 4px;
+    border: none; }
+
+#showCityPicker3 {
+  font-family: "微软雅黑";
+  text-align: right;
+  color: #636363;
+  font-size: 14px;
+  margin-right: 13%; }

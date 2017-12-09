@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.pCHide {
+  display: none; }
+
+.personalCenter .head {
+  background: #fff; }
+  .personalCenter .head h3 {
+    font-size: 14px;
+    font-family: "微软雅黑"; }
+
+.personalCenter .personalContent {
+  width: 100%; }
+  .personalCenter .personalContent form ul li {
+    margin-bottom: 1px;
+    background: #fff url(../img/sy_yjt.png) no-repeat 97% center;
+    background-size: 12px; }
+    .personalCenter .personalContent form ul li a {
+      display: block;
+      width: 94%;
+      padding: 0 3%;
+      font-size: 14px;
+      color: #000;
+      font-family: "微软雅黑"; }
+      .personalCenter .personalContent form ul li a h2 {
+        font-family: "微软雅黑";
+        width: 50%;
+        height: 62px;
+        line-height: 62px; }
+      .personalCenter .personalContent form ul li a h3 {
+        width: 50%; }
+        .personalCenter .personalContent form ul li a h3 span {
+          display: block;
+          width: 50px;
+          height: 50px;
+          margin: 10px 0 10px 55%; }
+          .personalCenter .personalContent form ul li a h3 span img {
+            width: 100%;
+            height: 100%;
+            border-radius: 40px; }
+  .personalCenter .personalContent form ul .pPhone {
+    width: 100%;
+    background: #fff;
+    padding: 14px 0; }
+    .personalCenter .personalContent form ul .pPhone span, .personalCenter .personalContent form ul .pPhone em {
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #616163; }
+    .personalCenter .personalContent form ul .pPhone span {
+      margin-left: 3%; }
+    .personalCenter .personalContent form ul .pPhone em {
+      margin-right: 3%; }
+  .personalCenter .personalContent form ul .pName {
+    width: 100%;
+    background: #fff;
+    padding: 14px 0; }
+    .personalCenter .personalContent form ul .pName span, .personalCenter .personalContent form ul .pName textarea {
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #616163; }
+    .personalCenter .personalContent form ul .pName span {
+      margin-left: 3%; }
+    .personalCenter .personalContent form ul .pName textarea {
+      margin-right: 3%;
+      resize: none;
+      border: none;
+      outline: none;
+      text-align: right; }
+  .personalCenter .personalContent form ul .pSex {
+    width: 100%;
+    background: #fff;
+    padding: 14px 0;
+    margin-bottom: 20px; }
+    .personalCenter .personalContent form ul .pSex span, .personalCenter .personalContent form ul .pSex select {
+      font-size: 12px;
+      font-family: "微软雅黑";
+      color: #616163; }
+    .personalCenter .personalContent form ul .pSex span {
+      margin-left: 3%; }
+    .personalCenter .personalContent form ul .pSex select {
+      border: solid 1px #000;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      border: none;
+      outline: none;
+      background: #fff;
+      margin-right: 3%; }
+  .personalCenter .personalContent form ul li:nth-child(5), .personalCenter .personalContent form ul li:nth-child(6) {
+    width: 100%;
+    padding: 14px 0%;
+    font-size: 14px;
+    color: #616163;
+    font-family: "微软雅黑";
+    text-align: left; }
+    .personalCenter .personalContent form ul li:nth-child(5) a, .personalCenter .personalContent form ul li:nth-child(6) a {
+      color: #616163; }
+  .personalCenter .personalContent button {
+    width: 94%;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #CD0011;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: "微软雅黑"; }
+
+.pcMask {
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: mYmove 1s;
+  -webkit-animation: mYmove 1s;
+  /*Safari and Chrome*/
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1; }
+  .pcMask .pcMaskContent {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden; }
+    .pcMask .pcMaskContent div {
+      width: 100%;
+      height: 84%; }
+    .pcMask .pcMaskContent ul {
+      z-index: 110;
+      position: absolute;
+      left: 0;
+      top: 72%;
+      width: 94%;
+      padding: 0 3%;
+      animation: mymove 1s;
+      -webkit-animation: mymove 1s infinite;
+      /*Safari and Chrome*/
+      animation-iteration-count: 1;
+      -webkit-animation-iteration-count: 1; }
+      .pcMask .pcMaskContent ul li {
+        position: relative;
+        left: 0;
+        top: 0;
+        background: #fff;
+        margin-bottom: 1px;
+        text-align: center;
+        border-radius: 4px;
+        padding: 12px 0;
+        color: #000 !important;
+        margin-bottom: 8px; }
+        .pcMask .pcMaskContent ul li form {
+          position: absolute;
+          left: 0;
+          top: 0;
+          filter: alpha(opacity=0);
+          opacity: 0; }
+
+@keyframes mYmove {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.6; } }
+
+@-webkit-keyframes mYmove /*Safari and Chrome*/ {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.6; } }
+
+@keyframes mymove {
+  from {
+    top: 100%; }
+  to {
+    top: 72%; } }
+
+@-webkit-keyframes mymove /*Safari and Chrome*/ {
+  from {
+    top: 100%; }
+  to {
+    top: 72%; } }

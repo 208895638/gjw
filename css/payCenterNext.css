@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.payCenterNext {
+  width: 100%;
+  height: 100%; }
+  .payCenterNext .payCenterHide {
+    display: none; }
+  .payCenterNext .head {
+    background: #fff; }
+    .payCenterNext .head a {
+      font-size: 18px;
+      text-align: center;
+      text-indent: 1em; }
+    .payCenterNext .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+  .payCenterNext .payCenterNextContent {
+    width: 100%;
+    height: -moz-calc(100% - 100px);
+    height: -webkit-calc(100% - 100px);
+    height: calc(100% - 100px); }
+    .payCenterNext .payCenterNextContent .pCNTop {
+      padding-top: 10px;
+      width: 100%; }
+      .payCenterNext .payCenterNextContent .pCNTop h1 {
+        padding: 15px 0 15px 47%; }
+        .payCenterNext .payCenterNextContent .pCNTop h1 img {
+          width: 26px; }
+      .payCenterNext .payCenterNextContent .pCNTop h2, .payCenterNext .payCenterNextContent .pCNTop h3 {
+        text-align: center;
+        margin-bottom: 6px; }
+      .payCenterNext .payCenterNextContent .pCNTop h3 {
+        color: #919294; }
+    .payCenterNext .payCenterNextContent .pCNCen {
+      width: 100%; }
+      .payCenterNext .payCenterNextContent .pCNCen ul {
+        padding: 0 3%;
+        width: 94%;
+        background: #fff; }
+        .payCenterNext .payCenterNextContent .pCNCen ul li {
+          padding: 10px 0;
+          width: 100%;
+          border-bottom: 2px solid #efeff1; }
+          .payCenterNext .payCenterNextContent .pCNCen ul li span {
+            width: 25%;
+            color: #5e5e5e; }
+          .payCenterNext .payCenterNextContent .pCNCen ul li em {
+            width: 75%; }
+  .payCenterNext .pCNBottom {
+    width: 94%;
+    padding: 0 3%; }
+    .payCenterNext .pCNBottom a {
+      width: 48%;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: 4px; }
+    .payCenterNext .pCNBottom a:nth-child(1) {
+      background: #fff;
+      margin-right: 4%; }
+    .payCenterNext .pCNBottom a:nth-child(2) {
+      background: #cd0011;
+      color: #fff; }

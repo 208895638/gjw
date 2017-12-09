@@ -1,0 +1,49 @@
+.main{
+    width:100%;
+    background:#e9e9e9;
+    height: -moz-calc(100% - 43px); 
+    height: -webkit-calc(100% - 43px);
+    height: calc(100% - 43px);
+    overflow-y: scroll;
+    position: relative;
+    ul{
+        width:94%;
+        background:#fff;
+        padding:8px 3%;
+        li{
+            width:94%;
+            padding:0 3%;
+            border:solid 1px #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            a{
+                display:block;
+                width:100%;
+                h3{
+                    width:100%;
+                    font:16px/30px "microsoft yahei";
+                    color:#000000;
+                }
+                .upLoadTime{
+                    width:100%;
+                    font:12px/30px "microsoft yahei";
+                    color:#999;
+                }
+                img{
+                    display: block;
+                    width:100%;
+                    height:auto;
+                }
+                .activityEntry{
+                    border-top:solid 1px #ddd;
+                    width:100%;
+                    font:14px/30px "microsoft yahei";
+                    color:#000;
+                }
+            }
+        }
+        li:last-child{
+            margin-bottom:0;
+        }
+    }
+}

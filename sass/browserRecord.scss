@@ -1,0 +1,85 @@
+.browserRecord{
+    height:100%;
+    .head{
+        background: #fff;
+        h3,h4{
+           
+            line-height:42px;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            text-align: center;
+        }
+    }
+    
+    
+    ul{
+        width:100%;
+        height: -moz-calc(100% - 43px); 
+        height: -webkit-calc(100% - 43px);
+        height: calc(100% - 43px); 
+        overflow-y: scroll;
+        li{
+            background: #fff;
+            border-bottom: 1px solid #e4e4e4;
+            width:94%;
+            padding:10px 3%;
+            .bS{
+                width:100%;
+                a{
+                    width:100%;
+                    display: block;
+                    div:nth-child(1){
+                        margin-right:10px;
+                        img{
+                            height:60px;
+                        }
+                    };
+                    div:nth-child(2){
+                        width: -moz-calc(100% - 70px); 
+                        width: -webkit-calc(100% - 70px);
+                        width: calc(100% - 70px); 
+                        h4{
+                            line-height: 16px;
+                            font-family: "微软雅黑";
+                            font-weight: 100;
+                            font-size: 14px;
+                            color:#000;
+                            margin-bottom:10px;color:#000;
+                        };
+                        p{
+                            font-size: 14px;
+                            color:#adadad;
+                            text-align:left;
+                        }                   
+                    }
+                }
+            }
+           h5{
+                width:15%;
+                font:14px/61px "微软雅黑";
+                color:#fff;
+                background: #d9374f;
+                text-align: center;
+            }
+        };
+//      li:last-child{
+//         border-bottom:none;
+//         text-align:center;
+//          line-height: 16px;
+//          font-family: "微软雅黑";
+//          color:#000;
+//          line-height: 30px;
+//          font-size: 14px;
+//          background:#e4e4e4;
+//      }
+            
+    }
+    p{
+        text-align:center;
+        line-height: 16px;
+        font-family: "微软雅黑";
+        color:#000;
+        line-height: 30px;
+        font-size: 14px;
+    }
+}

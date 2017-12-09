@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.newInvoice {
+  width: 100%;
+  height: 100%; }
+  .newInvoice .newInvoiceHide {
+    display: none; }
+  .newInvoice .head {
+    background: #fff; }
+    .newInvoice .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+  .newInvoice .newInvoiceTop {
+    margin: 10px 0;
+    width: 94%;
+    padding: 5px 3%;
+    background: #fff; }
+    .newInvoice .newInvoiceTop h2 {
+      padding: 5px 0; }
+    .newInvoice .newInvoiceTop h3 p {
+      padding: 5px;
+      border: 1px solid #f3f4f6;
+      border-radius: 4px;
+      margin-right: 10px; }
+    .newInvoice .newInvoiceTop .borderAll {
+      border: 1px solid #ce0517;
+      background: url(../img/gwc_jiaobiao.png) no-repeat right top;
+      background-size: 10px; }
+  .newInvoice .newInvoiceContent .newInvoiceCenter {
+    width: 94%;
+    padding: 0 3%;
+    background: #fff; }
+    .newInvoice .newInvoiceContent .newInvoiceCenter h2 {
+      padding: 5px 0; }
+    .newInvoice .newInvoiceContent .newInvoiceCenter h3 textarea {
+      width: 94%;
+      padding: 3%;
+      resize: none;
+      border: none;
+      outline: none;
+      font-size: 14px;
+      margin-bottom: 1px;
+      border: 1px solid #eeeff3;
+      border-radius: 4px; }
+  .newInvoice .newInvoiceContent .newInvoiceBottom {
+    padding: 5px 3%;
+    background: #fff;
+    margin: 10px 0; }
+    .newInvoice .newInvoiceContent .newInvoiceBottom h2 {
+      padding: 10px 0; }
+    .newInvoice .newInvoiceContent .newInvoiceBottom h3 span {
+      margin-right: 20px; }
+      .newInvoice .newInvoiceContent .newInvoiceBottom h3 span b {
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 16px;
+        margin-right: 10px;
+        background: #dddddd;
+        color: #fff; }
+    .newInvoice .newInvoiceContent .newInvoiceBottom .borderColor {
+      background: #00c59c; }
+  .newInvoice .newInvoiceBtn {
+    margin: 16px 3%;
+    width: 94%;
+    padding: 10px 0;
+    display: block;
+    background: #d9374f;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff; }

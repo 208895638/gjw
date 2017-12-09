@@ -1,0 +1,145 @@
+.mySale{
+    width:100%;
+    height:100%;
+    .head{
+        h3{
+            font-family: "微软雅黑";
+        }
+    }
+    .mySaleContent{
+        width:100%;
+        height:-moz-calc(100% - 43px);
+        height:-webkit-calc(100% - 43px);
+        height: calc(100% - 43px);
+        .mySaleTop{
+            width:100%;
+            height:100%;
+
+            overflow-y: auto;
+            position: relative;
+            .mySaleHide{
+                display:none;
+            }
+            .mySaleTopC{
+                width:100%;
+               
+                position: absolute;
+                left:0;
+                top:-moz-calc(50% - 69px);
+                top:-webkit-calc(50% - 69px);
+                top: calc(50% - 69px);
+                div{
+                    margin:0 auto;
+                    height:60px;
+                    width:60px;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                h4{
+                    width:100%;
+                    text-align: center;
+                    padding:30px 0;
+                }
+            }
+            .mySaleCon{
+                width:100;
+                .mySC{
+                    width:100%;
+                    margin-bottom: 5px;
+                    h2{
+                        background: #fff;
+                        width:100%;
+                        padding:10px 0%;
+                        span,em{
+                            font-size: 12px;
+                            font-family: "微软雅黑";
+                            font-weight: 100;
+                            color:#000;
+                        }
+                        span{
+                            margin-left:3%;
+                        }
+                        em{
+                            margin-right:3%;
+                            text-align:right;
+                            color:#AD2427;
+                        }
+                    }
+                    ul{
+                        width:94%;
+                        padding:4px 3%;
+                        .myUL{
+                            width:18%;
+                            margin-right:2%;
+                            img{
+                                width:100%;
+                            }
+                        }
+                        .myUC{
+                            color:#222222;
+                            width:57%;
+                            margin-right:3%;
+                            font:12px/20px "微软雅黑";
+                        }
+                         .myUR{
+                            width:20%;
+                            h3,h4,h3 span,h4 span{
+                                font: 12px/20px "微软雅黑";
+                                color:#2F2F2F;
+                                text-align:right;
+                            }
+                        }
+                    }
+                    h5{
+                        width:100%;
+                        background: #fff;
+                        text-align:right;
+                        padding:3px 0;
+                        color:#222;
+                         font:12px/20px "微软雅黑";
+                         span{
+                             color:#222;
+                         }
+                        em{
+                            margin-right:3%;
+                            font:12px/20px "微软雅黑";
+                            
+                        }
+                        span,em,i{
+                                font:12px/20px "微软雅黑";
+                        }
+                        em,i{
+                            color:#AD2427;
+                        }
+                        i{
+                            margin-right:3%;
+                        }
+                    }
+                    h6{
+                        width:100%;
+                        background: #fff;
+                        margin-top:1px;
+                        position:relative;
+                        height:30px;
+                        padding:2px 0;
+                        
+                        button{
+                            
+                            padding:0 5px;
+                            font: 12px/28px "微软雅黑";
+                            color:#AD2427;
+                            border:1px solid #AD2427;
+                            background: #fff;
+                            text-decoration: underline;
+                            position:absolute;
+                            right:3%;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+.integral {
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden; }
+  .integral .integralHide {
+    display: none; }
+  .integral .head {
+    background: #fff; }
+    .integral .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑"; }
+  .integral .integralContent {
+    height: 100%; }
+    .integral .integralContent h2 {
+      width: 94%;
+      padding: 10px 3%;
+      font-size: 14px;
+      color: #fff;
+      background: #bf0010; }
+    .integral .integralContent .integralTab ul {
+      width: 100%; }
+      .integral .integralContent .integralTab ul li {
+        width: 50%;
+        padding: 10px 0;
+        font-size: 14px;
+        text-align: center;
+        font-family: "微软雅黑";
+        background: #fff;
+        border-bottom: 2px solid #e4e4e4; }
+      .integral .integralContent .integralTab ul .integralTabColor {
+        color: #CD0011;
+        border-bottom: 2px solid red; }
+    .integral .integralContent .integralTabCon {
+      width: 100%;
+      height: -moz-calc(100% - 120px);
+      height: -webkit-calc(100% - 120px);
+      height: calc(100% - 120px);
+      overflow-y: auto; }
+      .integral .integralContent .integralTabCon .integralPage {
+        position: relative;
+        height: 100%; }
+        .integral .integralContent .integralTabCon .integralPage div {
+          position: absolute;
+          top: -moz-calc(50% - 25px);
+          top: -webkit-calc(50% - 25px);
+          top: calc(50% - 25px);
+          left: -moz-calc(50% - 25px);
+          left: -webkit-calc(50% - 25px);
+          left: calc(50% - 25px); }
+          .integral .integralContent .integralTabCon .integralPage div img {
+            height: 50px; }
+        .integral .integralContent .integralTabCon .integralPage h4 {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          top: -moz-calc(50% - -28px);
+          top: -webkit-calc(50% - -28px);
+          top: calc(50% - -28px);
+          color: #636363; }
+      .integral .integralContent .integralTabCon ul {
+        padding: 0 0 0 3%;
+        width: 97%;
+        background: #fff; }
+        .integral .integralContent .integralTabCon ul li {
+          padding: 10px 0 10px 0;
+          border-bottom: 1px solid #e4e4e4; }
+          .integral .integralContent .integralTabCon ul li span {
+            width: 76%; }
+            .integral .integralContent .integralTabCon ul li span h1 {
+              color: #494949;
+              margin-bottom: 8px; }
+            .integral .integralContent .integralTabCon ul li span h4 {
+              color: #a7a7a7; }
+          .integral .integralContent .integralTabCon ul li em {
+            width: 24%; }
+    .integral .integralContent .integralTabHide11 {
+      display: none; }

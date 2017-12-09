@@ -1,0 +1,575 @@
+@charset "UTF-8";
+#view {
+  width: 100%;
+  height: -moz-calc(100% - 51px);
+  height: -webkit-calc(100% - 51px);
+  height: calc(100% - 51px);
+  overflow-y: scroll; }
+  #view #home {
+    width: 100%; }
+    #view #home header {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 100; }
+    #view #home .banner {
+      width: 100%; }
+      #view #home .banner ul {
+        width: 100%; }
+        #view #home .banner ul li {
+          width: 100%; }
+          #view #home .banner ul li a {
+            display: block;
+            width: 100%; }
+            #view #home .banner ul li a img {
+              display: block;
+              width: 100%;
+              height: 166px; }
+    #view #home .modules {
+      width: 100%; }
+      #view #home .modules ul {
+        width: 100%; }
+        #view #home .modules ul li {
+          float: left;
+          width: 25%;
+          height: 85px; }
+          #view #home .modules ul li a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            color: #000;
+            text-align: center; }
+            #view #home .modules ul li a img {
+              width: 36px;
+              height: 36px;
+              margin-top: 16px; }
+            #view #home .modules ul li a p {
+              font: 12px/30px "microsoft yahei"; }
+      #view #home .modules .temporary {
+        width: 100%;
+        height: 170px;
+        display: block; }
+    #view #home .SecKill {
+      width: 100%; }
+      #view #home .SecKill .title {
+        padding: 14px;
+        height: 16px;
+        width: -moz-calc(100% - 28px);
+        width: -webkit-calc(100% - 28px);
+        width: calc(100% - 28px); }
+        #view #home .SecKill .title .topic {
+          padding: 0 6px;
+          border-left: solid 2px #BD2C00;
+          font: 16px/16px "microsoft yahei";
+          color: #000; }
+        #view #home .SecKill .title .t-info {
+          font: 14px/16px "microsoft yahei";
+          color: #666; }
+        #view #home .SecKill .title .countDown {
+          font: 16px/16px "microsoft yahei";
+          color: #000; }
+        #view #home .SecKill .title .more {
+          font: 14px/16px "microsoft yahei";
+          color: #666; }
+      #view #home .SecKill .slideArea {
+        width: 100%;
+        overflow-x: scroll; }
+        #view #home .SecKill .slideArea ul {
+          width: 200%; }
+          #view #home .SecKill .slideArea ul li {
+            float: left;
+            width: 16.65%; }
+            #view #home .SecKill .slideArea ul li a {
+              display: block;
+              width: 100%; }
+              #view #home .SecKill .slideArea ul li a .picWrapper {
+                width: 100%;
+                text-align: center; }
+                #view #home .SecKill .slideArea ul li a .picWrapper img {
+                  width: 80px;
+                  height: 80px; }
+              #view #home .SecKill .slideArea ul li a p {
+                width: 80%;
+                font: 14px/16px "microsoft yahei";
+                color: #999;
+                height: 32px; }
+              #view #home .SecKill .slideArea ul li a strong {
+                display: block;
+                font: 16px/20px "microsoft yahei";
+                color: #ac2023; }
+              #view #home .SecKill .slideArea ul li a del {
+                font: 18px/24px "microsoft yahei";
+                color: #999; }
+    #view #home .floorArea {
+      width: 100%; }
+      #view #home .floorArea .floor {
+        width: 100%; }
+        #view #home .floorArea .floor .f-title {
+          color: #ff3d55; }
+        #view #home .floorArea .floor .production {
+          width: 100%; }
+          #view #home .floorArea .floor .production a {
+            width: 33.3%;
+            height: 80px;
+            display: block;
+            box-sizing: border-box; }
+            #view #home .floorArea .floor .production a img {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          #view #home .floorArea .floor .production a.w60 {
+            width: 60%; }
+          #view #home .floorArea .floor .production a.w40 {
+            width: 40%; }
+          #view #home .floorArea .floor .production a.w30 {
+            width: 30%; }
+          #view #home .floorArea .floor .production a.h160 {
+            height: 160px; }
+          #view #home .floorArea .floor .production a.w50 {
+            width: 50%; }
+    #view #home .floor2 {
+      width: 100%; }
+      #view #home .floor2 .f-title {
+        color: #ff9900; }
+    #view #home .floor3 {
+      width: 100%; }
+      #view #home .floor3 .f-title {
+        color: #b540ca; }
+    #view #home .floor4 {
+      width: 100%; }
+      #view #home .floor4 .f-title {
+        color: #4057ca; }
+    #view #home .floor5 {
+      width: 100%; }
+      #view #home .floor5 .f-title {
+        color: #40ca77; }
+  #view #classify {
+    height: 100%;
+    width: 100%; }
+    #view #classify header .search {
+      background-color: #E9E9E9;
+      width: 100%; }
+    #view #classify .main {
+      height: -moz-calc(100% - 45px);
+      height: -webkit-calc(100% - 45px);
+      height: calc(100% - 45px);
+      width: 100%; }
+      #view #classify .main .menu {
+        width: 23%;
+        height: 100%;
+        background: #E9E9E9; }
+        #view #classify .main .menu li {
+          width: 90%;
+          font: 16px/49px "microsoft yahei";
+          color: #333;
+          padding-left: 10%; }
+      #view #classify .main .c-content {
+        width: 77%;
+        height: 100%;
+        overflow-y: scroll;
+        /*选项卡隐藏*/ }
+        #view #classify .main .c-content dl {
+          width: 100%;
+          height: 100%; }
+          #view #classify .main .c-content dl dt {
+            width: 95%;
+            margin-left: 5%;
+            height: 60px; }
+            #view #classify .main .c-content dl dt a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+              #view #classify .main .c-content dl dt a img {
+                width: 100%;
+                height: 100%; }
+          #view #classify .main .c-content dl dd {
+            width: 100%; }
+            #view #classify .main .c-content dl dd .c-title {
+              width: 95%;
+              margin-left: 5%;
+              background: #E9E9E9; }
+              #view #classify .main .c-content dl dd .c-title .c-name {
+                padding-left: 10px;
+                font: 14px/26px "microsoft yahei";
+                color: #666;
+                border-left: solid 5px #7f06b7; }
+              #view #classify .main .c-content dl dd .c-title .c-more {
+                padding-right: 10px;
+                font: 14px/26px "microsoft yahei";
+                color: #666; }
+                #view #classify .main .c-content dl dd .c-title .c-more .triangle {
+                  padding-left: 5px;
+                  padding-right: 5px; }
+            #view #classify .main .c-content dl dd ul {
+              width: 84%;
+              padding: 0 8%; }
+              #view #classify .main .c-content dl dd ul li {
+                width: 30%;
+                margin-right: 3.33%;
+                margin-top: 10px; }
+                #view #classify .main .c-content dl dd ul li a {
+                  display: block;
+                  width: 100%; }
+                  #view #classify .main .c-content dl dd ul li a .picWrapper {
+                    width: 100%;
+                    text-align: center; }
+                    #view #classify .main .c-content dl dd ul li a .picWrapper img {
+                      width: 40px;
+                      height: 40px; }
+                  #view #classify .main .c-content dl dd ul li a h2 {
+                    width: 100; }
+                    #view #classify .main .c-content dl dd ul li a h2 img {
+                      width: 40px; }
+                  #view #classify .main .c-content dl dd ul li a p {
+                    width: 100%;
+                    text-align: center;
+                    font: 14px/30px "microsoft yahei";
+                    color: #666; }
+        #view #classify .main .c-content .wine, #view #classify .main .c-content .foreignWine, #view #classify .main .c-content .hyp, #view #classify .main .c-content .drinkingVessel {
+          display: none; }
+  #view #cart {
+    height: 100%;
+    width: 100%; }
+    #view #cart .head .editor b {
+      color: #cd0011;
+      display: none; }
+    #view #cart .cartList {
+      display: none;
+      height: -moz-calc(100% - 44.1px);
+      height: -webkit-calc(100% - 44.1px);
+      height: calc(100% - 44.1px);
+      width: 100%; }
+      #view #cart .cartList dl {
+        height: -moz-calc(100% - 50px);
+        height: -webkit-calc(100% - 50px);
+        height: calc(100% - 50px);
+        width: 100%;
+        overflow-y: scroll; }
+        #view #cart .cartList dl dd {
+          width: 100%; }
+          #view #cart .cartList dl dd .goodsInfo {
+            width: 94%;
+            padding: 10px 3%;
+            border-bottom: solid 1px #ddd; }
+            #view #cart .cartList dl dd .goodsInfo .selectWrapper {
+              width: 10%;
+              height: 80px;
+              text-align: left; }
+              #view #cart .cartList dl dd .goodsInfo .selectWrapper .selectItem {
+                margin-top: 32px;
+                height: 16px;
+                width: 16px;
+                background: url(../img/no.png) no-repeat;
+                border: none;
+                outline: none; }
+            #view #cart .cartList dl dd .goodsInfo .goodsContent {
+              width: 90%; }
+              #view #cart .cartList dl dd .goodsInfo .goodsContent img {
+                width: 25%;
+                height: 80px; }
+              #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r {
+                width: 70%;
+                padding-left: 5%; }
+                #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r h4 {
+                  width: 100%;
+                  font: 14px/16px "microsoft yahei";
+                  color: #333;
+                  height: 32px; }
+                #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom {
+                  width: 100%; }
+                  #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .con-l {
+                    width: 70%; }
+                    #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .con-l ul {
+                      width: 100%; }
+                    #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .con-l strong {
+                      width: 100%;
+                      font: 16px/32px "microsoft yahei";
+                      color: #f2132f; }
+                  #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController {
+                    width: 30%;
+                    height: 24px;
+                    padding: 12px 0; }
+                    #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController .subtract, #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController .numShow, #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController .add {
+                      width: -moz-calc(33.3% - 2px);
+                      width: -webkit-calc(33.3% - 2px);
+                      width: calc(33.3% - 2px);
+                      border: solid 1px #ddd;
+                      text-align: center;
+                      color: #333;
+                      font: 14px/22px "microsoft yahei"; }
+                    #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController .subtract, #view #cart .cartList dl dd .goodsInfo .goodsContent .gc-r .conBottom .numController .add {
+                      background: #eee;
+                      color: #666; }
+          #view #cart .cartList dl dd .gifts, #view #cart .cartList dl dd .addPrice {
+            display: block;
+            width: 85%;
+            padding: 10px 3% 10px 12%;
+            border-bottom: solid 1px #ddd; }
+            #view #cart .cartList dl dd .gifts img, #view #cart .cartList dl dd .addPrice img {
+              width: 20%;
+              height: 48px; }
+            #view #cart .cartList dl dd .gifts .moR, #view #cart .cartList dl dd .addPrice .moR {
+              padding-left: 5%;
+              width: 75%; }
+              #view #cart .cartList dl dd .gifts .moR p, #view #cart .cartList dl dd .addPrice .moR p {
+                width: 100%;
+                font: 12px/16px "microsoft yahei";
+                color: #000000; }
+                #view #cart .cartList dl dd .gifts .moR p span, #view #cart .cartList dl dd .addPrice .moR p span {
+                  color: #cd0011; }
+              #view #cart .cartList dl dd .gifts .moR .giftsNum, #view #cart .cartList dl dd .addPrice .moR .giftsNum {
+                width: 100%;
+                font: 12px/16px "microsoft yahei";
+                color: #666;
+                text-align: right; }
+          #view #cart .cartList dl dd .discountDes {
+            width: 95%;
+            padding: 2px 0 2px 5%;
+            border-bottom: solid 1px #ddd; }
+            #view #cart .cartList dl dd .discountDes p {
+              font: 14px/30px "microsoft yahei";
+              color: #999;
+              display: inline-block; }
+            #view #cart .cartList dl dd .discountDes a {
+              display: inline-block;
+              font: 14px/28px "microsoft yahei";
+              color: #999;
+              padding: 0 4px;
+              margin-right: 8px;
+              border-radius: 2px;
+              border: solid 1px #999; }
+      #view #cart .cartList .settlement {
+        width: 97%;
+        height: 50px;
+        padding-left: 3%; }
+        #view #cart .cartList .settlement .selectWrapper {
+          width: 10%;
+          text-align: left;
+          height: 100%; }
+          #view #cart .cartList .settlement .selectWrapper .selectAll {
+            margin-top: 17px;
+            height: 16px;
+            width: 16px;
+            background: url(../img/no.png) no-repeat;
+            border: none;
+            outline: none; }
+        #view #cart .cartList .settlement .selectLabel {
+          font: 14px/50px "microsoft yahei";
+          color: #666666;
+          width: 12%;
+          text-align: center; }
+        #view #cart .cartList .settlement .money {
+          width: 50%; }
+          #view #cart .cartList .settlement .money p {
+            width: 100%;
+            font: 14px/24px "microsoft yahei";
+            color: #cd0011; }
+          #view #cart .cartList .settlement .money .total {
+            width: 100%; }
+            #view #cart .cartList .settlement .money .total span {
+              font: 14px/24px "microsoft yahei";
+              color: #999; }
+        #view #cart .cartList .settlement .checkout, #view #cart .cartList .settlement .delete {
+          width: 28%;
+          height: 100%;
+          text-align: center;
+          font: 16px/50px "microsoft yahei";
+          background: #cd0011;
+          color: #fff; }
+        #view #cart .cartList .settlement .collection {
+          width: 28%;
+          height: 100%;
+          text-align: center;
+          font: 16px/50px "microsoft yahei";
+          background: #E9E9E9;
+          color: #999;
+          display: none; }
+        #view #cart .cartList .settlement .delete {
+          display: none; }
+    #view #cart .cartEmpty {
+      height: -moz-calc(100% - 44.1px);
+      height: -webkit-calc(100% - 44.1px);
+      height: calc(100% - 44.1px);
+      width: 100%;
+      overflow-y: scroll; }
+      #view #cart .cartEmpty .goshopping {
+        width: 100%;
+        background: #e9e9e9; }
+        #view #cart .cartEmpty .goshopping .kongWrapper {
+          width: 100%;
+          padding: 50px 0; }
+          #view #cart .cartEmpty .goshopping .kongWrapper li {
+            width: 100%;
+            text-align: center; }
+            #view #cart .cartEmpty .goshopping .kongWrapper li img {
+              width: 50px;
+              height: 50px; }
+            #view #cart .cartEmpty .goshopping .kongWrapper li p {
+              font: 14px/20px "microsoft yahei";
+              color: #666; }
+            #view #cart .cartEmpty .goshopping .kongWrapper li a {
+              display: inline-block;
+              padding: 0 10px;
+              font: 14px/32px "microsoft yahei";
+              color: #fff;
+              background: #cd0011;
+              border-radius: 5px; }
+  #view #myself {
+    height: 100%;
+    width: 100%; }
+    #view #myself .main {
+      height: -moz-calc(100% - 45px);
+      height: -webkit-calc(100% - 45px);
+      height: calc(100% - 45px);
+      width: 100%;
+      overflow-y: scroll; }
+      #view #myself .main .myAccount {
+        display: none;
+        width: 100%;
+        padding: 10px 0;
+        background: #ca0286; }
+        #view #myself .main .myAccount .portrait {
+          width: 25%;
+          text-align: center; }
+          #view #myself .main .myAccount .portrait img {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%; }
+        #view #myself .main .myAccount .personalInfo {
+          font: 14px/20px "microsoft yahei";
+          color: #fff;
+          width: 50%; }
+          #view #myself .main .myAccount .personalInfo p {
+            width: 100%;
+            font: 14px/20px "微软雅黑";
+            font-weight: 100; }
+            #view #myself .main .myAccount .personalInfo p i {
+              font: 14px/20px "微软雅黑";
+              color: #fff;
+              font-weight: 100; }
+          #view #myself .main .myAccount .personalInfo p:nth-child(1) {
+            margin-top: 10px; }
+        #view #myself .main .myAccount .administration {
+          font: 14px/60px "microsoft yahei";
+          color: #fff;
+          padding-right: 3%;
+          width: 22%;
+          text-align: right; }
+      #view #myself .main .loginPic {
+        width: 100%;
+        padding: 10px 0;
+        background: #ca0286;
+        text-align: center; }
+        #view #myself .main .loginPic .logWrap {
+          display: inline-block;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          text-align: center;
+          background: #ddd;
+          overflow: hidden; }
+          #view #myself .main .loginPic .logWrap img {
+            width: 30px;
+            height: 30px; }
+          #view #myself .main .loginPic .logWrap p {
+            font: 12px/20px "microsoft yahei";
+            color: #666;
+            text-align: center; }
+      #view #myself .main .record {
+        width: 100%;
+        background: #591d83; }
+        #view #myself .main .record .collect, #view #myself .main .record .footprint {
+          width: 50%;
+          text-align: center;
+          padding-top: 8px; }
+          #view #myself .main .record .collect p, #view #myself .main .record .footprint p {
+            color: #fff;
+            font: 14px/30px "microsoft yahei"; }
+          #view #myself .main .record .collect .colNum, #view #myself .main .record .collect .fooNum, #view #myself .main .record .footprint .colNum, #view #myself .main .record .footprint .fooNum {
+            line-height: 14px; }
+      #view #myself .main .myOrder {
+        width: 100%; }
+        #view #myself .main .myOrder ul {
+          width: 100%; }
+          #view #myself .main .myOrder ul li {
+            float: left;
+            width: 25%; }
+            #view #myself .main .myOrder ul li a {
+              display: block;
+              width: 100%;
+              text-align: center;
+              padding-top: 10px;
+              position: relative; }
+              #view #myself .main .myOrder ul li a span {
+                width: 16px;
+                background: red;
+                font: 12px/16px "微软雅黑";
+                color: #fff;
+                height: 16px;
+                position: absolute;
+                right: 30%;
+                top: 10%;
+                border-radius: 8px; }
+              #view #myself .main .myOrder ul li a img {
+                width: 20px;
+                height: 20px; }
+              #view #myself .main .myOrder ul li a p {
+                font: 14px/34px "microsoft yahei";
+                color: #999; }
+      #view #myself .main .myAssets {
+        width: 100%; }
+        #view #myself .main .myAssets ul {
+          width: 100%; }
+          #view #myself .main .myAssets ul li {
+            float: left;
+            width: 33.3%; }
+            #view #myself .main .myAssets ul li a {
+              display: block;
+              width: 100%;
+              text-align: center;
+              padding-top: 10px; }
+              #view #myself .main .myAssets ul li a p {
+                font: 14px/34px "microsoft yahei";
+                color: #999; }
+              #view #myself .main .myAssets ul li a .balance, #view #myself .main .myAssets ul li a .Coupon, #view #myself .main .myAssets ul li a .integral {
+                line-height: 14px; }
+      #view #myself .main .otherFn {
+        width: 90%;
+        padding: 0 5%; }
+        #view #myself .main .otherFn li {
+          width: 100%;
+          border-bottom: solid 1px #ddd; }
+          #view #myself .main .otherFn li a {
+            width: 100%;
+            display: block; }
+            #view #myself .main .otherFn li a p {
+              font: 14px/40px "microsoft yahei";
+              color: #000000; }
+            #view #myself .main .otherFn li a .tel {
+              color: #cd0011;
+              margin-right: 20px; }
+            #view #myself .main .otherFn li a .rMore {
+              color: #999; }
+        #view #myself .main .otherFn li:last-child {
+          border-bottom: none; }
+
+#foot {
+  height: 49px;
+  width: 100%;
+  border-top: solid 1px #ddd; }
+  #foot ul {
+    width: 100%;
+    height: 100%; }
+    #foot ul li {
+      float: left;
+      width: 25%; }
+      #foot ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #666;
+        text-align: center; }
+        #foot ul li a i {
+          font: 20px/36px "microsoft yahei"; }
+        #foot ul li a p {
+          font: 12px/12px "microsoft yahei"; }

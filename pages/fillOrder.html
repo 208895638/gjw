@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人中心</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/fillOrder.css" />
+	</head>
+	<body class='bgColor'>
+		<div class='fillOrder'>
+			<div class="head clearfix">
+				<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+				<h3 class="l pageTitle">填写订单</h3>		
+			</div>
+			<div class='fillOrderContent' style="-webkit-overflow-scrolling:touch;overflow:auto!important;">
+				<div class='consigneeMessage fontAll'>
+					<a href="addressMange.html?#">
+						<div  class='consigneeMessageExit'>
+							<div>
+								<h2 class='clearfix'>
+									<i class='l'>
+										收货人<sapn></sapn>
+									</i>
+									<span class='l'>
+										
+									</span>
+								</h2>
+								<h3>
+									
+								</h3>
+							</div>
+						</div>
+						<div  class='consigneeMessageDis fillOrderHide'>
+							<div>
+								<h2 class='clearfix'>
+									<p class='l'>
+										请选择收货人
+									</p>
+								</h2>
+								<h3>
+									请选择收货地址
+								</h3>
+							</div>						
+						</div>
+				</a>
+				</div>
+				<div class='fillOrderGoods'>
+					
+				</div>
+				<div class='fillOrderPayment'>
+					<ul>
+						<li class='clearfix payStyle'>
+							<h2 class='fontAll l'>支付配送</h2>
+							<h3 class='l'>
+								<span  class='fontAll'>
+									<input type="radio" name="payStyle" class="payWay" payid="4">在线支付
+								</span>
+								<span  class='fontAll' >
+									<input type="radio" name="payStyle" payid="1">货到付款
+								</span>
+							</h3>
+						</li>
+						<li  class='fontAll clearfix totalPrice'>
+							<h2 class='l fontAll'>
+								商品金额
+							</h2>
+							<h4 class='l'>
+								¥<span  class='fontAll'>0.00</span>
+							</h4>
+						</li>
+						<li class='fontAll clearfix freight'>
+							<h2 class='l fontAll'>
+								运费
+							</h2>
+							<h4 class='l'>
+								¥<span class='fontAll'>0.00</span>
+							</h4>
+						</li>
+						<li class='fontAll clearfix fpInfo'>
+							
+							<h2 class='l fontAll'>
+								需要发票
+							</h2>
+							
+							<a href="newInvoice.html">
+								<h5 class='l fontAll over'>
+									不需要发票
+								</h5>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class='fillOrderCoupon'>
+					<ul>
+						<li class='clearfix coupon'>
+							<a>
+								<h2 class='l fontAll'>
+									优惠券
+								</h2>
+								<h4 class='l'>
+									<span class='fontAll'>选取优惠券</span>
+								</h4>
+							</a>
+						</li>
+						<li class='clearfix balance'>
+							<h2 class='l fontAll'>
+								余额
+							</h2>
+							<input type="text" placeholder="可用余额：0" class="l"/>
+							<div class="imgWrapper r">
+								<img src="../img/gwc_guanbi.png" alt="" class="deleteVal">
+							</div>
+						</li>
+						<li class='clearfix integral'>
+							<h2 class='l fontAll'>
+								积分
+							</h2>
+							<input type="text" placeholder="可用积分：0" class="l"/>
+							<div class="imgWrapper r">
+								<img src="../img/gwc_guanbi.png" alt="" class="deleteVal">
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class='fillOrderText'>
+					<textarea name="" rows="5" cols="" placeholder="给购酒留言 （选填，50字以内）"></textarea>
+				</div>
+			</div>
+			<div class='fillOrderBottom fontAll clearfix'>
+				<span class='fontAll l'>
+					应付金额:¥<em>0.00</em>
+				</span>
+				<a class='fontAll l'>提交订单</a>
+			</div>
+		</div>
+	</body>
+	<script src="../js/plugins/zepto.min.js"></script>
+	<script src="../js/plugins/zp-md5.js"></script>
+	<script src="../js/fillOrder.js" type="text/javascript" charset="utf-8"></script>
+</html>

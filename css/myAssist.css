@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.myAssist .head {
+  background: #fff !important;
+  margin-bottom: 10px; }
+  .myAssist .head h3 {
+    font-size: 14px; }
+
+.myAssist ul li {
+  width: 94%;
+  padding: 10px 3%;
+  background: #fff;
+  border-bottom: 1px solid #e4e4e4; }
+  .myAssist ul li a {
+    width: 100%;
+    display: block; }
+    .myAssist ul li a div {
+      margin-right: 10px;
+      font-size: 14px;
+      color: #000;
+      font-family: "微软雅黑"; }
+      .myAssist ul li a div img {
+        height: 16px; }
+    .myAssist ul li a div:nth-child(2) {
+      width: -moz-calc(100% - 110px);
+      width: -webkit-calc(100% - 110px);
+      width: calc(100% - 110px);
+      margin-right: 10px; }
+    .myAssist ul li a div:nth-child(3) span, .myAssist ul li a div:nth-child(3) i {
+      float: left;
+      text-align: right; }
+    .myAssist ul li a div:nth-child(3) span {
+      width: 40px; }
+    .myAssist ul li a div:nth-child(3) i {
+      width: 16px; }

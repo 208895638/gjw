@@ -1,0 +1,40 @@
+.bindCoupon{
+    .head{
+       background:#fff;
+       h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+       }
+    }
+    form{
+        margin:10px 0;
+        
+        div{
+            border-bottom: 1px solid #e4e4e4;
+            
+            input{
+                width:64%;
+                border: none;padding:10px 3%;
+                font-size: 14px;
+                font-family: "微软雅黑";background: #fff;
+            }
+            label{
+                width: 24%;
+                display: block;
+                font-size: 14px;
+                font-family: "微软雅黑";
+                padding:10px 3%;background: #fff;
+            }
+        }
+       
+    }
+     button{
+            margin:15px 3%;
+            width:94%;
+            padding:10px 0;
+            font-size: 14px;
+            color: #fff;
+            background: red;
+            border:none;
+        }
+}

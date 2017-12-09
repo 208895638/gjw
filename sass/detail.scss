@@ -1,0 +1,586 @@
+.detailHide{
+    display:none;
+}
+.head{
+    ul{
+        width:60%;
+        height: 100%;
+        font: 600 14px/40px "microsoft yahei";
+        color: #666;
+        li{
+            width:33.3%;
+            text-align: center;
+            border-bottom:solid 2px #fff;
+            color:#919294;
+        }
+    }
+}
+.fView{
+    width:100%;
+    overflow-y: scroll;
+    height: -moz-calc(100% - 91px); 
+    height: -webkit-calc(100% - 91px);
+    height: calc(100% - 91px);
+    .goods{
+        width:100%;
+        .detailBanner{
+            width:100%;
+            ul{
+                width:100%;
+                li{
+                    height:300px;
+                    width:100%;
+                    background:url(../img/banner01.jpg) no-repeat;
+                    background-size:100% 100%;
+                }
+            }
+        }
+        .promotionalGifts{
+            width: 94%;
+            padding: 10px 3%;
+            background: url(../img/sy_yjt.png) no-repeat 97% center;
+            background-size: 14px;
+            h2{
+                width: 84px;
+                span{
+                    margin-left: 8px;
+                    padding: 0 5px;
+                    color: #D52D3B;
+                    border: 1px solid #D52D3B;
+                }
+            }
+            p{
+               
+                width: -moz-calc(100% - 100px);
+                width: -webkit-calc(100% - 100px);
+                width: calc(100% - 100px);
+            }
+        }
+       .detailInfo{
+           width:94%;
+           padding:0 3%;
+           .detailName{
+               margin-top:10px;
+               width:100%;
+               font:14px/16px "microsoft yahei";
+               color:#999;
+           }
+           .miaoshu{
+                margin-top:10px;
+               width:100%;
+               font:14px/16px "microsoft yahei";
+               color:#CD0011;
+           }
+           .reserve{
+               width:100%;
+               font:12px/20px "microsoft yahei";
+               color:#cd0011;
+               .miaosha{
+                   margin: 10px 0;
+                   div{
+                        width: 16%;
+                        
+                   }
+                   div:nth-child(1){
+                       font-size: 16px;
+                       margin-right:10px;
+                       span{
+                           margin-left:4px;
+                       }
+                   }
+                   div:nth-child(2){
+                        color: #999;
+                        width: 32%; 
+                        font-family: "微软雅黑";
+                        font-size: 12px;
+                   }
+               }
+               .putong{
+                   margin: 10px 0;
+                   span:nth-child(1){
+                        background: #ef7f57;
+                        height: 16px;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 16px;
+                        margin-right: 10px;
+                        border-radius: 3px;
+                        padding:0 10px;
+                        color:#fff;
+                   }
+                   span:nth-child(2){
+                       color: #999;
+                        width: 40%;
+                        font-size: 12px; 
+                        font-family: "微软雅黑";
+                        em{
+                            font-size: 12px; 
+                            font-family: "微软雅黑"; 
+                        }
+                   }
+               }
+           }
+           .priceLabel{
+               strong{
+                    display:block;
+                    color:#cd0011;
+                    font:12px/20px "microsoft yahei";
+                    margin-right:5px;
+               }
+           }
+           .guarantee{
+               width:100%;
+               i{
+                   font:16px/30px "microsoft yahei";
+                    color:#cd0011;
+                    margin-left:5px;
+               }
+               span{
+                    font:12px/30px "microsoft yahei";
+                    color:#cd0011;
+                    margin-left:5px;
+               }
+               
+           }
+       }
+       
+        .buyerSelect{
+           width:97%;
+           padding-left:3%;
+           li{
+               width:100%;
+               border-bottom: solid 1px #ddd;
+               .labelItem{
+                   width:20%;
+                   color:#666;
+                   font:14px/40px "microsoft yahei";
+               }
+               .cou{
+                   width:20%;
+                   color:#666;
+                   font:14px/40px "microsoft yahei";
+               }
+               .numController{
+                   width:80%;
+                   padding:5px 0;
+                   .subtract,.numShow,.add{
+                       border-right:solid 1px #fff;
+                       text-align: center;
+                       color:#333;
+                       font:14px/30px "microsoft yahei";
+                       background:#E9E9E9;
+                       width:40px;
+                   }
+               }
+               .area{
+                   width:60%;
+                   padding:10px 0;
+                   select{
+                       width: -moz-calc(33.3% - 10px); 
+                       width: -webkit-calc(33.3% - 10px);
+                       width: calc(33.3% - 10px);
+                       margin-left:5px;
+                       font:12px/40px "microsoft yahei";
+                       color:#000;
+                   }
+               }
+               .status{
+                   width:12%;
+                   font:14px/40px "microsoft yahei";
+                   color:#cd0011;
+               }
+               .method,.promptContent,.noCon{
+                   width:80%;
+                   font:14px/40px "microsoft yahei";
+                   color:#000;
+               }
+           }
+           .prompt{
+               border-bottom: none;
+           }
+        }
+        .assess{
+            width:100%;
+            .assTitle{
+                border-bottom:solid 1px #ddd;
+                width:97%;
+                padding-left:3%;
+                .assLabel{
+                    font:16px/40px "microsoft yahei";
+                    color:#000;
+                    margin-right:5px;
+                }
+                .personNum{
+                    font:12px/40px "microsoft yahei";
+                    color:#999;
+                    i{
+                       font:12px/40px "microsoft yahei";
+                        color:#999; 
+                    }
+                }
+                .goodRate{
+                    font:14px/40px "microsoft yahei";
+                    color:#999;
+                    margin-right:5px;
+                }
+            }
+            ul{
+                width:97%;
+                padding-left:3%;
+                .assessItem{
+                    width:100%;
+                    border-bottom:solid 1px #ddd;
+                }
+            }
+            ul:last-child{
+                border-bottom: none;
+            }
+            .seeMoreComment{
+                width:100%;
+                text-align: center;
+                font:12px/40px "microsoft yahei";
+            }
+        }
+    }
+    .detailsPic{
+        width:100%;
+        height:100%;
+        display:none;
+    }
+    .evaluation{
+        width:100%;
+        height:100%;
+        display: none;
+        .elNav{
+            width:100%;
+            border-bottom: solid 1px #ddd;
+            padding:4px 0;
+            dd{
+                text-align: center;
+                float:left;
+                width:20%;
+                h4,p{
+                    font: 14px/20px "microsoft yahei";
+                    color:#666;
+                }
+            }
+            .evalCurrent{
+                h4,p{
+                    color:#cd0011;
+                }
+            }
+        }
+        .sView{
+                
+                overflow-y: scroll;
+                height: -moz-calc(100% - 49px); 
+                height: -webkit-calc(100% - 49px);
+                height: calc(100% - 49px);
+                
+                .commentEmpty{
+                    background: #E4E4E4;
+                    display: none;
+                     width:100%;
+                     height:100%;
+                    div{
+                        width:100%;
+                       
+                        padding-top: -moz-calc(50% - 25px); 
+                        padding-top: -webkit-calc(50% - 25px);
+                        padding-top: calc(50% - 25px);
+                        img{
+                            height:50px;
+                            margin-left: -moz-calc(50% - 25px); 
+                            margin-left: -webkit-calc(50% - 25px);
+                            margin-left: calc(50% - 25px);
+                        }
+                    }
+                    h2{
+                        text-align:center;
+                        color:#C8C8C8;
+                    }
+                
+                }
+                .allEvalution,.goodComment,.midComment,.badComment,.BuyerShow{
+                    width:97%;
+                    padding-left:3%;
+                    display:none;
+                    .assessItem{
+                        width:100%;
+                        border-bottom:solid 1px #ddd ;
+                    }
+                }
+                .allEvalution{
+                    display:block;
+                }
+                
+        }
+    }
+}
+.fnNav{
+    width:100%;
+    height:48px;
+    li{
+        text-align: center;
+        width:21%;
+        font:14px/24px "microsoft yahei";
+        color:#666;
+        .shouchang{
+            div:nth-child(2){
+                color:#C30010;
+            }
+        }
+        a{
+            text-align: center;
+            display:block;
+            font:14px/24px "microsoft yahei";
+            color:#666;
+        }
+        .fontHide{
+            display: none;
+        }
+        h2{
+            width:14px;
+            height:14px;
+            line-height: 14px;
+            border-radius: 7px;
+            position: absolute;
+            right:20%;
+            top:0;
+            background: #CD0011;
+            color:#fff;
+            font:12px/14px "微软雅黑";
+            font-weight: 100;
+        }
+    }
+    li:nth-child(1){
+        position: relative;
+    }
+    .addCart,.goBuy{
+        width:23%;
+        padding:0 2%;
+        background:#cd0011;
+        color:#fff;
+        height:100%;
+        line-height:48px;
+    }
+    .goBuy{     
+        background:#000;
+    }
+}
+.photoDetail{
+    width:94%;
+    padding:0 3%;
+}
+.zpcx{
+   width:100%;
+   height:100%;
+   background: rgba(000,000,000,0.6);
+   position: absolute;
+   left:0;
+   top:0;
+   z-index: 10000;
+// h5{
+//      width: 100%;
+//      height: -moz-calc(100% - 101px);
+//      height: -webkit-calc(100% - 101px);
+//      height: calc(100% - 101px);
+// }
+    .zpcxB{
+        position:fixed;
+        width:100%;
+        bottom: 0;
+       h2{
+            border-bottom: 1px solid #e5e5e5;
+            background: #fff;
+            span{
+                width: 10%;
+            }
+            em{
+                width: 80%;
+                text-align: center;
+                padding: 10px 0;
+                font-size: 16px;
+                color: #dc3350;
+            }
+            .zpcxhide{
+                text-align: center;
+                font-size: 14px;
+                padding: 11px;
+            }
+            
+       } 
+       div{
+            width: 94%;
+            padding: 0 3%;
+            background: #fff;
+    //      h3{
+    //          margin-right: 10px;
+    //          img{
+    //              width: 50px;
+    //          }
+    //          
+    //      }
+    //      em{
+    //          width: -moz-calc(100% - 60px);
+    //          width: -webkit-calc(100% - 60px);
+    //          width: calc(100% - 60px);
+    //          white-space: nowrap;
+    //          overflow: hidden;
+    //          text-overflow: ellipsis;
+    //          padding: 20px 0;
+    //      }
+            dl{
+                width: 94%;
+                padding: 0 3%;
+                background: #fff;
+                dt{
+                   margin-right: 10px;
+                    img{
+                        width: 50px;
+                    } 
+                }
+                dd{
+                     width: -moz-calc(100% - 60px);
+                    width: -webkit-calc(100% - 60px);
+                    width: calc(100% - 60px);
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    padding: 20px 0;
+                    font-family: "微软雅黑";
+                    font-size: 12px;
+                }
+            }
+       } 
+    }      
+}
+.buyNow{
+    width:100%;
+    height:100%;
+    background:rgba(000,000,000,0.3);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 999;
+    .bNEmpty{
+        width:100%;
+        height: -moz-calc(100% - 164px);
+        height: -webkit-calc(100% - 164px);
+        height: calc(100% - 164px);
+    }
+    .bNcontent{
+        position:relative;
+        animation:mymove 1s infinite;
+        -webkit-animation:mymove 1s infinite; /*Safari and Chrome*/
+        animation-iteration-count:1;
+        -webkit-animation-iteration-count:1;
+        @keyframes mymove{
+        from {top:100%}
+        to{           
+             top: calc(100% - 153px);           
+            }
+        }
+        
+        
+   
+    .bNT{
+        width:94%;
+        background:#fff;
+        padding:0 3%;
+        position: relative;
+        .bNTL{
+            width:60px;
+            margin-top:-20px;
+        }
+        .bNTC{
+            width: -moz-calc(95% - 75px);
+            width: -webkit-calc(95% - 75px);
+            width: calc(95% - 75px);
+            margin-left:15px;
+            padding:10px 0;
+            h2{
+                font:12px/20px "微软雅黑";
+                color:#d9374f;
+                em{
+                   font:12px/20px "微软雅黑";
+                    color:#d9374f; 
+                }
+            }
+            h3,h4{
+                font:14px/20px "微软雅黑";
+                font-weight: 100;
+                color:#000;
+                i{
+                    font-size: 14px;
+                    color:#000;
+                }
+            }
+        }
+        .bNTR{
+            width:5%;
+            text-align:center;
+            margin-top:10px;
+        }
+    }
+    .bNB{
+        background: #fff;
+        width:100%;
+        border-top:1px solid #d5d5d5;
+        .bNBT{
+            width:94%;
+            padding:0 3%;
+            h2{
+                width:70%;
+                padding:14px 0;
+                font-size: 12px;
+                color:#2f2f2f;
+                font-family: "微软雅黑";
+            }
+            div{
+                width:30%;
+                margin-top:10px;
+                span,em{
+                   margin-right: 5px;
+                    
+                    font-size: 12px;
+                    color:#000;
+                    text-align:center;
+                    resize:none;
+                    background:#e5e5e5;
+                }
+                span,em{
+                    padding:5px 10px;
+                }
+                .checkNum{
+                    font-size: 12px;
+                    color:#000;
+                    text-align:center;
+                    margin-top:0;
+                    margin-right: 5px;
+                    background:#e5e5e5;
+                    padding:0;
+                    height:24px;
+                    line-height: 24px;
+                    width:24px;
+                   
+                }
+            }
+        }
+        .bNBB{
+            width:100%;
+           button{
+               display: block;
+                width:100%;
+                border:none;
+                outline: none;
+                text-align: center;
+                padding:10px 0;
+                font-size: 14px;
+                background:#d9374f;
+                color:#fff;
+            }
+        }
+    }
+}
+ }

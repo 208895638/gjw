@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.payCenter {
+  width: 100%;
+  height: 100%; }
+  .payCenter .payCenterHide {
+    display: none; }
+  .payCenter .head {
+    background: #fff; }
+    .payCenter .head a {
+      font-size: 18px;
+      text-align: center;
+      text-indent: 1em;
+      padding: 0; }
+    .payCenter .head h3 {
+      font-size: 14px;
+      font-family: "微软雅黑";
+      width: 75%; }
+  .payCenter .headerTop {
+    padding: 10px 3%;
+    width: 94%;
+    color: #616163; }
+  .payCenter .payCenterContent {
+    width: 100%; }
+    .payCenter .payCenterContent h2 {
+      width: 94%;
+      padding: 10px 3%;
+      background: #fff;
+      margin-bottom: 10px; }
+      .payCenter .payCenterContent h2 span {
+        width: 50%; }
+      .payCenter .payCenterContent h2 i {
+        text-align: right;
+        color: #cd0011;
+        width: 50%; }
+        .payCenter .payCenterContent h2 i b {
+          color: #cd0011; }
+    .payCenter .payCenterContent dl dt {
+      width: 94%;
+      padding: 10px 3%;
+      background: #fff;
+      margin-bottom: 1px; }
+    .payCenter .payCenterContent dl dd {
+      width: 100%;
+      background: #fff;
+      margin-bottom: 1px; }
+      .payCenter .payCenterContent dl dd ul {
+        width: 100%; }
+        .payCenter .payCenterContent dl dd ul li {
+          font-family: "微软雅黑";
+          padding: 15px 0;
+          font-size: 16px; }
+        .payCenter .payCenterContent dl dd ul li:nth-child(1) {
+          background: url(../img/dl_zhifubao@2x.png) no-repeat left center;
+          background-size: 30px;
+          width: 15%;
+          margin-left: 5%; }
+          .payCenter .payCenterContent dl dd ul li:nth-child(1) img {
+            height: 20px; }
+        .payCenter .payCenterContent dl dd ul li:nth-child(2) {
+          width: 70%; }
+        .payCenter .payCenterContent dl dd ul li:nth-child(3) {
+          background: url(../img/sy_yjt.png) no-repeat left center;
+          width: 10%;
+          background-size: 20px; }
+    .payCenter .payCenterContent dl .payCenterDCen ul li:nth-child(1) {
+      background: url(../img/fx_01@2x.png) no-repeat left center;
+      background-size: 30px; }
+    .payCenter .payCenterContent dl .payCenterDBot ul li:nth-child(1) {
+      background: url(../img/dl_yinlian@2x.png) no-repeat left center;
+      background-size: 20px; }

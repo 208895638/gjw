@@ -1,0 +1,101 @@
+.phoneQuickLanding{
+    height:100%;
+    .retrievePasswordHide{
+        display: none;
+    }
+    .head{
+        background:#fff;
+        h3{
+            font-size: 14px;
+            font-family: "微软雅黑";
+        }
+    }
+    
+    form{
+        width:100%;
+       
+        
+        h1{ padding-left:3%;
+            width:97%;
+            background: #fff;
+            input{
+                width:100%;
+                padding:14px 0;
+                font-size: 12px;
+                text-indent:2em;
+                border-bottom: 1px solid #d9d9d9;
+                background: url(../img/dl_yhm@2x.png) no-repeat left center;
+                background-size: 18px;
+                 font-family: "微软雅黑";
+            }
+        }
+        h2{
+            background: #fff;
+           padding-left:3%;
+            width:97%;
+            margin-bottom: 1px;
+            input{
+                width:70%;
+                padding:12px 0;
+                text-indent:2em;
+                font-size: 12px;
+                font-family: "微软雅黑";
+//              border-bottom: 1px solid #d9d9d9;
+                background: url(../img/dl_yzm@2x.png) no-repeat left center;
+                background-size: 18px;
+            } 
+            .yzm{
+                width:28%;
+                background: #fff;
+                padding:12px 0;
+//              border-top:1px solid #e4e4e4;
+                border-left:1px solid #e4e4e4;
+                font-size: 12px;
+                color:#d9d9d9;
+                font-family: "微软雅黑";
+                .yzmHide{
+                    display: none;
+                }
+                div{
+                    text-align: center;
+                    width:100%;
+                }
+            }
+        }
+        h3{
+            background: #fff;
+           padding-left:3%;
+            width:97%;
+          margin-bottom: 1px;
+            input{
+                width:70%;
+                padding:22px 0;
+                text-indent:2em;
+//              border-bottom: 1px solid #d9d9d9;
+                background: url(../img/dl_mima@2x.png) no-repeat left center;
+                background-size: 24px;
+            } 
+            span{
+                width:28%;
+                background: #fff;
+                height:48px;
+                display: inline-block; 
+                padding-top:14px;
+               img{
+                    margin-left: -moz-calc(100% - 34px); 
+                    margin-left: -webkit-calc(100% - 34px);
+                    margin-left: calc(100% - 34px); 
+                   height:34px;
+               }
+            }
+        }
+        
+    }
+    .retrievePasswordBtn{
+        margin:50px 3%;
+        padding:10px 0;
+        width:94%;
+        color:#fff;
+        background: #D9374F;
+    }
+}

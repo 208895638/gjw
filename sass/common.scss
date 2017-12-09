@@ -1,0 +1,458 @@
+.cu{cursor:pointer;}
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.over2{overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;word-break: break-all;}
+.vm{vertical-align:middle;display:inline-block;}
+.vcenter{width:0px;height:100%;vertical-align:middle;display:inline-block;}
+.dis100{display:block;width:100%;height:100%;}
+.ind2{text-indent:2em;}
+.bor0{border:0;}
+.l{float:left;}
+.r{float:right;}
+.pl_3{position:relative;top:3px;}
+
+html{
+    width:100%;
+    height:100%;
+    body{
+        width:100%;
+        height:100%;
+    }
+}
+/*搜索头部*/
+header{
+   width: 90%;
+   padding:7px 5%;
+    height:30px;
+    .search{
+        display:block;
+        width:88%;
+//      height:30px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius:5px;
+       font:14px/30px "microsoft yahei";
+       span{
+           text-align: center;
+           width:11%;
+           height:100%;
+           margin-left:14px;
+           font:14px/29px "microsoft yahei";
+           vertical-align:top;
+           color:#666;
+       }
+       input{
+           
+           width: -moz-calc(89% - 30px);
+           width: -webkit-calc(89% - 30px);
+           width: calc(89% - 30px);
+//         height:100%;
+           border:none;
+           vertical-align:top;
+           font:14px/30px "microsoft yahei";
+           background:rgba(255, 255, 255, 0);
+       }
+    }
+    .news{
+        width:6%;
+        font:20px/30px "microsoft yahei";
+        color:#fff;
+        display:block;
+    }
+}
+/*输入框光标隐藏*/
+input:focus {
+    outline:none;
+}
+/*标题头部*/
+.head{
+    width:100%;
+    height:42px;
+    border-bottom:solid 1px #ddd;
+    a{
+        display:block;
+        width:12%;
+        text-align: center;
+        height:100%;
+        font:16px/42px "microsoft yahei";
+        color:#999;
+        padding-left:4%;
+    }
+    .pageTitle{
+        width:60%;
+        text-align: center;
+        height:100%;
+        font:600 16px/42px "microsoft yahei";
+    }
+    .editor{
+        width:20%;
+        text-align: center;
+        height:100%;
+        font:16px/42px "microsoft yahei";
+        color:#666;
+        display: block;
+    }
+}
+/*导航条点击变色class名*/
+#foot ul li a.current{
+    color:#cd0011;
+}
+/*分类侧边导航栏点击变色*/
+#view #classify .main .menu li.selected{
+    background:#fff;
+    color:#cd0011;
+}
+/*楼层样式*/
+.f-title{
+    text-align:center;
+    font:700 20px/50px "microsoft yahei";
+    h3{
+        height:55px;
+        width:100%;
+        overflow-y: hidden;
+        img{
+            width:100%;
+        }   
+    }
+}
+
+/*上下边框*/
+.borD{
+    border-top:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
+}
+.borB{
+    border-bottom:solid 1px #ddd;
+}
+/*广告条*/
+ .adv{
+    width:100%;
+    display:block;
+    img{
+        display:block;
+        width:100%;
+    }
+}
+/*商品边框*/
+.production a{
+    border-left:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
+}
+/*234楼相同样式*/
+
+.floor .production{
+    width:100%;
+   .pro-l{
+       width:50%;
+       a{
+           display:block;
+           border-bottom: none;
+           width: -moz-calc(100% - 1px); 
+            width: -webkit-calc(100% - 1px);
+            width: calc(100% - 1px);  
+            img{
+                display:block;
+                width:100%;
+                height:160px;
+            }
+       }
+   }
+   .pro-r{
+       width:50%;
+       a{
+           display:block;
+           width: -moz-calc(50% - 1px); 
+            width: -webkit-calc(50% - 1px);
+            width: calc(50% - 1px);  
+            img{
+                display:block;
+                width:100%;
+                height:80px;
+            }
+       }
+       .pro-first{
+           width: -moz-calc(100% - 1px); 
+            width: -webkit-calc(100% - 1px);
+            width: calc(100% - 1px);  
+       }
+   }
+}
+/*促销活动小标签*/
+ .flashSale,.fullCut,.fullCut{
+    background:#f4a238;
+    padding:0 5px;
+    border-radius: 2px;
+    margin-right: 4px;
+    color:#fff;
+    font:12px/16px "微软雅黑";
+}
+.gift{
+    background:#cf69fe;
+    border-radius: 2px;
+    margin-right: 4px;
+    color:#fff;
+    font:12px/16px "microsoft yahei";
+    padding:0 5px;
+}
+/*灰色分层条*/
+.interval{
+     width:100%;
+      height:10px;
+      background:#E9E9E9;
+}
+/*我的信息页面栏目头部样式*/
+.topTitle{
+    width:90%;
+    padding:5px 5%;
+    .tTabel{
+        font:14px/36px "microsoft yahei";
+        color:#000;
+    }
+    .tSeeMore{
+        font:12px/36px "microsoft yahei";
+        color:#999;
+    }
+}
+
+/*商品两列排*/
+.twoColumn{
+    width:100%;
+    background: #E9E9E9;
+    li{
+        float:left;
+        background: #fff;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        width: 49%;
+        a{
+//          border-left:solid 5px #E9E9E9;
+//          border-right:solid 5px #E9E9E9;
+//          border-bottom:solid 10px #E9E9E9;
+            display:block;
+            width: -moz-calc(80% - 0px); 
+            width: -webkit-calc(80% - 0px);
+            width: calc(80% - 0px);  
+            padding:10px 10%;
+            .picWrapper{
+                width:100%;
+                text-align: center;
+                img{
+                   height:120px;
+                   width: 120px;
+                }
+            }
+            p{
+                width:100%;
+                color:#999;
+                font:14px/16px "microsoft yahei";
+                height:32px;
+            }
+            .discount{
+                width:100%;
+                height:20px;
+                i{
+                    font:12px/16px "microsoft yahei";
+                    color:#fff;
+                    margin-right: 8px;
+                    border-radius: 2px;
+                    padding:2px;
+                }
+                
+            }
+            .price{
+                width:100%;
+                 strong{
+                    font:16px/20px "microsoft yahei";
+                    color:#ac2023;
+                    margin-right: 8px;
+                }
+                del{
+                    font:12px/20px "microsoft yahei";
+                    color:#999;
+                    i{
+                        margin-left:6px;
+                    }
+                }
+            }
+        }
+    }
+    li:nth-child(2n) {
+        float: right;
+        margin-right: 0;
+    }
+}
+/*详情页Tab选项卡变色*/
+body .head ul li.detailCurrent{
+    color:#000000;
+    border-bottom:solid 2px #666;
+}
+/*右侧角标*/
+.dMore{
+   font:16px/40px "microsoft yahei";
+       width:8%;
+       color:#999;
+}
+/*评价样式*/
+.userInfo{
+    width:100%;
+    padding:8px 0;
+    h4{
+        font:12px/12px "microsoft yahei";
+        margin-left:5px;
+        color:#666;
+        width:30%;
+    }
+    .level{
+        font:12px/12px "microsoft yahei";
+        color:#fff;
+        background:#e58b16;
+        border-radius: 2px;
+    }
+    .upLoadTime{
+        font:12px/12px "microsoft yahei";
+        color:#999;
+        margin-right:10px;
+    }
+}
+.starRating{
+    width:100%;
+    padding-left:0;
+    .starWrapper{
+        width:20px;
+    }
+}
+.wordWrapper{
+    margin: 8px 0;
+    width:100%;
+    font:12px/16px "microsoft yahei";
+    color:#000000;
+}
+.upLoadPic{
+    width:300px;
+    img{
+        width:80px;
+        height:80px;
+        border-radius: 2px;;
+    }
+}
+
+/*中划线标题样式*/
+.kongBottom{
+   width:94%;
+   padding:0 3%;
+   text-align: center;
+   .solide{
+       position:relative;
+       top:18px;
+   }
+   .centerWrapper{
+       position:relative;
+       display:inline-block;
+       background:#e9e9e9;
+       padding:5px 0;
+        img{
+            width:16px;
+            height:16px;
+            margin:0 8px;
+        }
+        span{
+            font:16px/16px "microsoft yahei";
+                color:#666;
+                margin-right: 5px;
+            }
+       }
+} 
+/*秒杀未开始样式*/
+ .sellSoon{
+    width:97%;
+    padding-left: 3%;
+    li,dd{
+        width:100%;
+        padding:8px 0;
+        border-bottom:solid 1px #ddd;
+        .picWrapper{
+            display:block;
+               img{
+                width:70px;
+                height:70px;
+                margin-right:8px;
+            } 
+        }
+        .secKillContent{
+            width: -moz-calc(100% - 86px); 
+            width: -webkit-calc(100% - 86px);
+            width: calc(100% - 86px); 
+            padding-right:8px;
+            .nameWrapper{
+                width:100%;
+                display:block;
+                p{
+                    margin-bottom: 6px;
+                    width:100%;
+                    font:12px/14px "microsoft yahei";
+                    color:#333;
+                }
+            }
+            .secKillPrice{
+                width:100%;
+                a{
+                    display: block;
+                    margin-top:14px;
+                    strong{
+                        font:12px/20px "microsoft yahei";
+                        color:#cd0011;
+                    }
+                    del{
+                        font:12px/20px "microsoft yahei";
+                        color:#999;
+                    }
+                    .remindTime{
+                        font:12px/20px "microsoft yahei";
+                        color:#3bbffc;
+                    }
+                }
+                .remindBtn{
+                    padding:0 5px;
+                    border-radius: 2px;
+                    font:12px/24px "microsoft yahei";
+                    color:#fff;
+                    background:#3bbffc;
+                    margin-top:10px;
+                    border:solid 1px #fff;
+                }
+                .cancelRemindBtn{
+                    display:none;
+                    padding:0 5px;
+                    border-radius: 2px;
+                    font:12px/24px "microsoft yahei";
+                    color:#3bbffc;
+                    background:#fff;
+                    margin-top:10px;
+                    border:solid 1px #3bbffc;
+                }
+            }
+        }
+    }
+     li:last-child,dd:last-child{
+        border-bottom:none;
+    }
+}
+/*暂无记录*/
+ .noResult{
+    display:none;
+    width:100px;
+    height: 140px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-50px;
+    margin-top:-70px;
+    img{
+        width:100px;
+        height: 100px;
+    }
+    p{
+        width:100%;
+        text-align: center;
+        font:18px/40px "microsoft yahei";
+        color:#666;
+    }
+}

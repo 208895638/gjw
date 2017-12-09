@@ -1,0 +1,112 @@
+.searchHide {
+  display: none; }
+
+.classifyNav {
+  width: 100%;
+  padding: 8px 0; }
+  .classifyNav li {
+    width: -moz-calc(33.3% - 1px);
+    width: -webkit-calc(33.3% - 1px);
+    width: calc(33.3% - 1px);
+    border-right: solid 1px #e9e9e9;
+    text-align: center;
+    font: 14px/30px "microsoft yahei";
+    color: #666666; }
+  .classifyNav li:last-child {
+    border-right: none; }
+  .classifyNav li.redWord {
+    color: #cd0011; }
+    .classifyNav li.redWord .selected {
+      display: block; }
+
+.goodsArea {
+  width: 100%;
+  height: -moz-calc(100% - 90px);
+  height: -webkit-calc(100% - 90px);
+  height: calc(100% - 90px);
+  overflow-y: scroll;
+  background: #e9e9e9;
+  position: relative; }
+  .goodsArea .twoColumn li {
+    background: #fff; }
+    .goodsArea .twoColumn li .appraise {
+      display: none; }
+  .goodsArea .rowSort {
+    width: 100%;
+    background: #fff; }
+    .goodsArea .rowSort li {
+      width: 94%;
+      padding: 10px 3%; }
+      .goodsArea .rowSort li a {
+        display: block;
+        width: 100%; }
+        .goodsArea .rowSort li a .picWrapper {
+          float: left;
+          width: 80px;
+          height: 80px;
+          margin-right: 10px; }
+          .goodsArea .rowSort li a .picWrapper img {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        .goodsArea .rowSort li a .contentWrap {
+          float: left;
+          height: 80px;
+          width: -moz-calc(100% - 90px);
+          width: -webkit-calc(100% - 90px);
+          width: calc(100% - 90px); }
+          .goodsArea .rowSort li a .contentWrap p {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #000000; }
+          .goodsArea .rowSort li a .contentWrap .discount {
+            width: 100%;
+            height: 20px; }
+            .goodsArea .rowSort li a .contentWrap .discount i {
+              font: 12px/16px "microsoft yahei";
+              color: #fff;
+              margin-right: 8px;
+              border-radius: 2px;
+              padding: 2px; }
+          .goodsArea .rowSort li a .contentWrap .price strong {
+            display: block;
+            font: 12px/16px "microsoft yahei";
+            color: #cd0011; }
+          .goodsArea .rowSort li a .contentWrap .appraise {
+            width: 100%;
+            font: 12px/16px "microsoft yahei";
+            color: #999; }
+
+.optionBar {
+  width: 100%;
+  height: -moz-calc(100% - 89px);
+  height: -webkit-calc(100% - 89px);
+  height: calc(100% - 89px);
+  overflow-y: scroll;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 89px; }
+  .optionBar .comprehensive, .optionBar .priceArea {
+    background: #fff;
+    display: none;
+    width: 97%;
+    padding-left: 3%; }
+    .optionBar .comprehensive .redWord h4, .optionBar .priceArea .redWord h4 {
+      color: #cd0011; }
+    .optionBar .comprehensive .redWord .selected, .optionBar .priceArea .redWord .selected {
+      display: block; }
+    .optionBar .comprehensive h4, .optionBar .priceArea h4 {
+      font: 14px/30px "microsoft yahei";
+      color: #666666; }
+    .optionBar .comprehensive .selected, .optionBar .priceArea .selected {
+      margin-right: 20px;
+      font: 14px/30px "microsoft yahei";
+      color: #cd0011;
+      display: none; }
+  .optionBar .vague {
+    height: -moz-calc(100% - 61px);
+    height: -webkit-calc(100% - 61px);
+    height: calc(100% - 61px);
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3); }

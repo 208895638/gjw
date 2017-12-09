@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/orderInformation.css" />
+	</head>
+	<body class='bgColor'>
+		<div class='orderInformation'>
+			<div class="head clearfix">
+				<!--<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>-->
+				<a class='l goback' style="text-align: left;"><i class='iconfont icon-fanhui'></i></a>
+				<h3 class="l pageTitle" style='float:left'>订单信息</h3>				
+			</div>
+			<div class='orderIC' style="-webkit-overflow-scrolling:touch;overflow:auto!important;">
+				<div class='orderICT clearfix'>
+					<div class='orderICTL l'>
+						<h2></h2>
+						<h3 class='timer'>
+							<b></b><span>00</span>时<em>00</em>分<i>00</i>秒订单将自动取消
+						</h3>
+					</div>
+					<div class='orderICTR r'>
+						<h4 class="dpj"><img src="../img/dpj@2x.png" alt="" /></h4>
+						<h4 class="cg"><img src="../img/cg@2x.png" alt="" /></h4>
+						<h4 class="dsh"><img src="../img/dsh@2x.png" alt="" /></h4>
+						<h4 class="dfh"><img src="../img/dfh@2x.png" alt="" /></h4>
+						<h4 class="dfk"><img src="../img/dfk@2x.png" alt="" /></h4>
+						<h4 class="sb"><img src="../img/sb@2x.png" alt="" /></h4>
+					</div>
+					
+				</div>
+				<!--<div class='orderICTDis clearfix' style='display: none;'>
+					<div class='orderICTL l'>
+						订单已取消
+					</div>
+					<div class='orderICTR r'>
+						<h4>
+							<img src="../img/dpj@2x.png" alt="" />
+						</h4>
+					</div>
+					
+				</div>-->
+				<div class='oN clearfix'>
+					<div class='oNT clearfix'>
+						<div class='clearfix'>
+							<span class='l'>订单号:</span>
+							<em class='l'></em>
+						</div>						
+					</div>
+					<div class='oNB clearfix'>
+						<a href="wLorder.html">
+						<div class='clearfix'>
+							<span class='l'>订单跟踪</span>
+							<em class='r'>全部物流查询</em>
+						</div></a>						
+					</div>
+				</div>
+				<div class='oD'>
+					<div class='oDCon clearfix'>
+						<div class='oDL l'>
+							<i class='iconfont icon-dingwei'></i>
+						</div>
+						<div class='oDC l'>
+							<h2>收货人: <span></span></h2>
+							<h3></h3>
+						</div>
+						<div class='oDR l'>
+							
+						</div>
+					</div>					
+				</div>
+				<div class="oIn">
+					
+				</div>
+				<div class='oCen'>
+					<h2 class='clearfix'>
+						<span class='l'>支付配送</span><em class='r'>淘宝</em> 
+					</h2>
+					<ul>	
+						<li class='clearfix fpxx'><span class='l'>发票信息</span><em class='r over'><b class=''> 0.00</b></em></li>
+						<li class='clearfix '><span class='l'>商品总额</span><em class='r'>¥ <b class='spze'> 0.00</b></em></li>
+						<li class='clearfix'><span class='l'>运费</span><em class='r'>¥ <b class='yf'> 0.00</b></em></li>
+						<li class='clearfix discount'><span class='l tiaojian'>新会员立减</span><em class='r'><i> - </i></i> ¥ <b class='jiage'> 0.00</b></em></li>
+						<li class='clearfix money'><span class='l '>实付金额</span><em class='r'> ¥ <b class='jine'> 0.00</b></em></li>
+						<li class='clearfix mjly'><span class='l '>买家留言</span><em class='r over'><b class='jine'> 0.00</b></em></li>
+					</ul>
+					
+				</div>				
+			</div>
+			<div class='oB clearfix'>
+				<button class='oBR r borderFrame'>去支付</button>
+				<button class='oBL r borderFrame'>取消订单</button>
+			</div>
+		</div>
+	</body>
+	<script src="../js/plugins/zepto.min.js"></script>
+	<script src='../js/orderInformation.js'></script>
+</html>

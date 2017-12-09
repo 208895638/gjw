@@ -1,0 +1,450 @@
+@charset "UTF-8";
+.detailHide {
+  display: none; }
+
+.head ul {
+  width: 60%;
+  height: 100%;
+  font: 600 14px/40px "microsoft yahei";
+  color: #666; }
+  .head ul li {
+    width: 33.3%;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+    color: #919294; }
+
+.fView {
+  width: 100%;
+  overflow-y: scroll;
+  height: -moz-calc(100% - 91px);
+  height: -webkit-calc(100% - 91px);
+  height: calc(100% - 91px); }
+  .fView .goods {
+    width: 100%; }
+    .fView .goods .detailBanner {
+      width: 100%; }
+      .fView .goods .detailBanner ul {
+        width: 100%; }
+        .fView .goods .detailBanner ul li {
+          height: 300px;
+          width: 100%;
+          background: url(../img/banner01.jpg) no-repeat;
+          background-size: 100% 100%; }
+    .fView .goods .promotionalGifts {
+      width: 94%;
+      padding: 10px 3%;
+      background: url(../img/sy_yjt.png) no-repeat 97% center;
+      background-size: 14px; }
+      .fView .goods .promotionalGifts h2 {
+        width: 84px; }
+        .fView .goods .promotionalGifts h2 span {
+          margin-left: 8px;
+          padding: 0 5px;
+          color: #D52D3B;
+          border: 1px solid #D52D3B; }
+      .fView .goods .promotionalGifts p {
+        width: -moz-calc(100% - 100px);
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px); }
+    .fView .goods .detailInfo {
+      width: 94%;
+      padding: 0 3%; }
+      .fView .goods .detailInfo .detailName {
+        margin-top: 10px;
+        width: 100%;
+        font: 14px/16px "microsoft yahei";
+        color: #999; }
+      .fView .goods .detailInfo .miaoshu {
+        margin-top: 10px;
+        width: 100%;
+        font: 14px/16px "microsoft yahei";
+        color: #CD0011; }
+      .fView .goods .detailInfo .reserve {
+        width: 100%;
+        font: 12px/20px "microsoft yahei";
+        color: #cd0011; }
+        .fView .goods .detailInfo .reserve .miaosha {
+          margin: 10px 0 0 0; }
+          .fView .goods .detailInfo .reserve .miaosha div {
+            width: 16%; }
+          .fView .goods .detailInfo .reserve .miaosha div:nth-child(1) {
+            font-size: 12px;
+            margin-right: 10px; }
+            .fView .goods .detailInfo .reserve .miaosha div:nth-child(1) span {
+              margin-left: 4px; }
+          .fView .goods .detailInfo .reserve .miaosha div:nth-child(2) {
+            color: #999;
+            width: 32%;
+            font-family: "微软雅黑";
+            font-size: 12px; }
+        .fView .goods .detailInfo .reserve .putong {
+          margin: 10px 0; }
+          .fView .goods .detailInfo .reserve .putong span:nth-child(1) {
+            background: #ef7f57;
+            height: 16px;
+            font-size: 12px;
+            text-align: center;
+            line-height: 16px;
+            margin-right: 10px;
+            border-radius: 3px;
+            padding: 0 10px;
+            color: #fff; }
+          .fView .goods .detailInfo .reserve .putong span:nth-child(2) {
+            color: #999;
+            width: 40%;
+            font-size: 12px;
+            font-family: "微软雅黑"; }
+            .fView .goods .detailInfo .reserve .putong span:nth-child(2) em {
+              font-size: 12px;
+              font-family: "微软雅黑"; }
+      .fView .goods .detailInfo .priceLabel strong {
+        display: block;
+        color: #cd0011;
+        font: 12px/20px "microsoft yahei";
+        margin-right: 5px; }
+      .fView .goods .detailInfo .guarantee {
+        width: 100%; }
+        .fView .goods .detailInfo .guarantee i {
+          font: 16px/30px "microsoft yahei";
+          color: #cd0011;
+          margin-left: 5px; }
+        .fView .goods .detailInfo .guarantee span {
+          font: 12px/30px "microsoft yahei";
+          color: #cd0011;
+          margin-left: 5px; }
+    .fView .goods .buyerSelect {
+      width: 97%;
+      padding-left: 3%; }
+      .fView .goods .buyerSelect li {
+        width: 100%;
+        border-bottom: solid 1px #ddd; }
+        .fView .goods .buyerSelect li .labelItem {
+          width: 20%;
+          color: #666;
+          font: 14px/40px "microsoft yahei"; }
+        .fView .goods .buyerSelect li .cou {
+          width: 20%;
+          color: #666;
+          font: 14px/40px "microsoft yahei"; }
+        .fView .goods .buyerSelect li .numController {
+          width: 80%;
+          padding: 5px 0; }
+          .fView .goods .buyerSelect li .numController .subtract, .fView .goods .buyerSelect li .numController .numShow, .fView .goods .buyerSelect li .numController .add {
+            border-right: solid 1px #fff;
+            text-align: center;
+            color: #333;
+            font: 14px/30px "microsoft yahei";
+            background: #E9E9E9;
+            width: 40px; }
+        .fView .goods .buyerSelect li .area {
+          width: 60%;
+          padding: 10px 0; }
+          .fView .goods .buyerSelect li .area select {
+            width: -moz-calc(33.3% - 10px);
+            width: -webkit-calc(33.3% - 10px);
+            width: calc(33.3% - 10px);
+            margin-left: 5px;
+            font: 12px/40px "microsoft yahei";
+            color: #000; }
+        .fView .goods .buyerSelect li .status {
+          width: 12%;
+          font: 14px/40px "microsoft yahei";
+          color: #cd0011; }
+        .fView .goods .buyerSelect li .method, .fView .goods .buyerSelect li .promptContent, .fView .goods .buyerSelect li .noCon {
+          width: 80%;
+          font: 14px/40px "microsoft yahei";
+          color: #000; }
+      .fView .goods .buyerSelect .prompt {
+        border-bottom: none; }
+    .fView .goods .assess {
+      width: 100%; }
+      .fView .goods .assess .assTitle {
+        border-bottom: solid 1px #ddd;
+        width: 97%;
+        padding-left: 3%; }
+        .fView .goods .assess .assTitle .assLabel {
+          font: 16px/40px "microsoft yahei";
+          color: #000;
+          margin-right: 5px; }
+        .fView .goods .assess .assTitle .personNum {
+          font: 12px/40px "microsoft yahei";
+          color: #999; }
+          .fView .goods .assess .assTitle .personNum i {
+            font: 12px/40px "microsoft yahei";
+            color: #999; }
+        .fView .goods .assess .assTitle .goodRate {
+          font: 12px/40px "microsoft yahei";
+          color: #999;
+          margin-right: 5px; }
+      .fView .goods .assess .assesss {
+        width: 97%;
+        padding-left: 3%; }
+        .fView .goods .assess .assesss .assessItem {
+          width: 100%;
+          border-bottom: solid 1px #ddd; }
+      .fView .goods .assess ul:last-child {
+        border-bottom: none; }
+      .fView .goods .assess .seeMoreComment {
+        width: 100%;
+        text-align: center;
+        font: 12px/40px "microsoft yahei"; }
+  .fView .detailsPic {
+    width: 100%;
+    height: 100%;
+    display: none; }
+  .fView .evaluation {
+    width: 100%;
+    height: 100%;
+    display: none; }
+    .fView .evaluation .elNav {
+      width: 100%;
+      border-bottom: solid 1px #ddd;
+      padding: 4px 0; }
+      .fView .evaluation .elNav dd {
+        text-align: center;
+        float: left;
+        width: 20%; }
+        .fView .evaluation .elNav dd h4, .fView .evaluation .elNav dd p {
+          font: 14px/20px "microsoft yahei";
+          color: #666; }
+      .fView .evaluation .elNav .evalCurrent h4, .fView .evaluation .elNav .evalCurrent p {
+        color: #cd0011; }
+    .fView .evaluation .sView {
+      overflow-y: scroll;
+      height: -moz-calc(100% - 49px);
+      height: -webkit-calc(100% - 49px);
+      height: calc(100% - 49px); }
+      .fView .evaluation .sView .commentEmpty {
+        background: #E4E4E4;
+        display: none;
+        width: 100%;
+        height: 100%; }
+        .fView .evaluation .sView .commentEmpty div {
+          width: 100%;
+          padding-top: -moz-calc(50% - 25px);
+          padding-top: -webkit-calc(50% - 25px);
+          padding-top: calc(50% - 25px); }
+          .fView .evaluation .sView .commentEmpty div img {
+            height: 50px;
+            margin-left: -moz-calc(50% - 25px);
+            margin-left: -webkit-calc(50% - 25px);
+            margin-left: calc(50% - 25px); }
+        .fView .evaluation .sView .commentEmpty h2 {
+          text-align: center;
+          color: #C8C8C8; }
+      .fView .evaluation .sView .allEvalution, .fView .evaluation .sView .goodComment, .fView .evaluation .sView .midComment, .fView .evaluation .sView .badComment, .fView .evaluation .sView .BuyerShow {
+        width: 97%;
+        padding-left: 3%;
+        display: none; }
+        .fView .evaluation .sView .allEvalution .assessItem, .fView .evaluation .sView .goodComment .assessItem, .fView .evaluation .sView .midComment .assessItem, .fView .evaluation .sView .badComment .assessItem, .fView .evaluation .sView .BuyerShow .assessItem {
+          width: 100%;
+          border-bottom: solid 1px #ddd; }
+      .fView .evaluation .sView .allEvalution {
+        display: block; }
+
+.fnNav {
+  width: 100%;
+  height: 48px; }
+  .fnNav li {
+    text-align: center;
+    width: 21%;
+    font: 14px/24px "microsoft yahei";
+    color: #666; }
+    .fnNav li .shouchang div:nth-child(2) {
+      color: #C30010; }
+    .fnNav li a {
+      text-align: center;
+      display: block;
+      font: 14px/24px "microsoft yahei";
+      color: #666; }
+      .fnNav li a .detailGwc {
+        width: 100%; }
+        .fnNav li a .detailGwc img {
+          display: block;
+          margin: 0 auto;
+          width: 20px; }
+    .fnNav li .fontHide {
+      display: none; }
+    .fnNav li h2 {
+      width: 14px;
+      height: 14px;
+      line-height: 14px;
+      border-radius: 7px;
+      position: absolute;
+      right: 20%;
+      top: 0;
+      background: #CD0011;
+      color: #fff;
+      font: 12px/14px "微软雅黑";
+      font-weight: 100; }
+  .fnNav li:nth-child(1) {
+    position: relative; }
+  .fnNav .addCart, .fnNav .goBuy {
+    width: 23%;
+    padding: 0 2%;
+    background: #cd0011;
+    color: #fff;
+    height: 100%;
+    line-height: 48px; }
+  .fnNav .goBuy {
+    background: #000; }
+
+.photoDetail {
+  width: 94%;
+  padding: 0 3%; }
+
+.zpcx {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10000; }
+  .zpcx .zpcxB {
+    position: fixed;
+    width: 100%;
+    bottom: 0; }
+    .zpcx .zpcxB h2 {
+      border-bottom: 1px solid #e5e5e5;
+      background: #fff; }
+      .zpcx .zpcxB h2 span {
+        width: 10%; }
+      .zpcx .zpcxB h2 em {
+        width: 80%;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #dc3350; }
+      .zpcx .zpcxB h2 .zpcxhide {
+        text-align: center;
+        font-size: 14px;
+        padding: 11px; }
+    .zpcx .zpcxB div {
+      width: 94%;
+      padding: 0 3%;
+      background: #fff; }
+      .zpcx .zpcxB div dl {
+        width: 94%;
+        padding: 0 3%;
+        background: #fff; }
+        .zpcx .zpcxB div dl dt {
+          margin-right: 10px; }
+          .zpcx .zpcxB div dl dt img {
+            width: 50px; }
+        .zpcx .zpcxB div dl dd {
+          width: -moz-calc(100% - 60px);
+          width: -webkit-calc(100% - 60px);
+          width: calc(100% - 60px);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding: 20px 0;
+          font-family: "微软雅黑";
+          font-size: 12px; }
+
+.buyNow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999; }
+  .buyNow .bNEmpty {
+    width: 100%;
+    height: -moz-calc(100% - 164px);
+    height: -webkit-calc(100% - 164px);
+    height: calc(100% - 164px); }
+  .buyNow .bNcontent {
+    position: relative;
+    animation: mymove 1s infinite;
+    -webkit-animation: mymove 1s infinite;
+    /*Safari and Chrome*/
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1; }
+
+@keyframes mymove {
+  from {
+    top: 100%; }
+  to {
+    top: calc(100% - 153px); } }
+    .buyNow .bNcontent .bNT {
+      width: 94%;
+      background: #fff;
+      padding: 0 3%;
+      position: relative; }
+      .buyNow .bNcontent .bNT .bNTL {
+        width: 60px;
+        margin-top: -20px; }
+      .buyNow .bNcontent .bNT .bNTC {
+        width: -moz-calc(95% - 75px);
+        width: -webkit-calc(95% - 75px);
+        width: calc(95% - 75px);
+        margin-left: 15px;
+        padding: 10px 0; }
+        .buyNow .bNcontent .bNT .bNTC h2 {
+          font: 12px/20px "微软雅黑";
+          color: #d9374f; }
+          .buyNow .bNcontent .bNT .bNTC h2 em {
+            font: 12px/20px "微软雅黑";
+            color: #d9374f; }
+        .buyNow .bNcontent .bNT .bNTC h3, .buyNow .bNcontent .bNT .bNTC h4 {
+          font: 14px/20px "微软雅黑";
+          font-weight: 100;
+          color: #000; }
+          .buyNow .bNcontent .bNT .bNTC h3 i, .buyNow .bNcontent .bNT .bNTC h4 i {
+            font-size: 14px;
+            color: #000; }
+      .buyNow .bNcontent .bNT .bNTR {
+        width: 5%;
+        text-align: center;
+        margin-top: 10px; }
+    .buyNow .bNcontent .bNB {
+      background: #fff;
+      width: 100%;
+      border-top: 1px solid #d5d5d5; }
+      .buyNow .bNcontent .bNB .bNBT {
+        width: 94%;
+        padding: 0 3%; }
+        .buyNow .bNcontent .bNB .bNBT h2 {
+          width: 70%;
+          padding: 14px 0;
+          font-size: 12px;
+          color: #2f2f2f;
+          font-family: "微软雅黑"; }
+        .buyNow .bNcontent .bNB .bNBT div {
+          width: 30%;
+          margin-top: 10px; }
+          .buyNow .bNcontent .bNB .bNBT div span, .buyNow .bNcontent .bNB .bNBT div em {
+            margin-right: 5px;
+            font-size: 12px;
+            color: #000;
+            text-align: center;
+            resize: none;
+            background: #e5e5e5; }
+          .buyNow .bNcontent .bNB .bNBT div span, .buyNow .bNcontent .bNB .bNBT div em {
+            padding: 5px 10px; }
+          .buyNow .bNcontent .bNB .bNBT div .checkNum {
+            font-size: 12px;
+            color: #000;
+            text-align: center;
+            margin-top: 0;
+            margin-right: 5px;
+            background: #e5e5e5;
+            padding: 0;
+            height: 24px;
+            line-height: 24px;
+            width: 24px; }
+      .buyNow .bNcontent .bNB .bNBB {
+        width: 100%; }
+        .buyNow .bNcontent .bNB .bNBB button {
+          display: block;
+          width: 100%;
+          border: none;
+          outline: none;
+          text-align: center;
+          padding: 10px 0;
+          font-size: 14px;
+          background: #d9374f;
+          color: #fff; }

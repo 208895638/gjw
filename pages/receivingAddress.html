@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>新建收货地址</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../img/iconfont/iconfont.css">
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/mui.picker.min.css" />
+		<link rel="stylesheet" href="../css/receivingAddress.css" />
+	</head>
+	<body class='bgColor'>
+		<div class='receivingAddress'>
+			<div class="head clearfix">
+				<a class="l iconfont icon-fanhui goback" style="text-align: left;"></a>
+				<h3 class="l pageTitle" >我的信息</h3>		
+			</div>
+			<form action="">
+				<p class='clearfix'>
+					<label for="recevingMan" class='l'>收货人</label>
+					<input type="text" id="recevingMan"  class='l'/>
+				</p>
+				<p class='clearfix'>
+					<label for="recevingPhone" class='l'>联系方式</label>
+					<input type="text" id="recevingPhone" class='l' />
+				</p>
+				<div class='clearfix reThree'>
+					<label for="recevingRegion" class='l'>所在地区</label>
+					<div id='showCityPicker3' addressid='1' class='r'></div>
+				</div>
+				<p class='clearfix'>
+					<label for="recevingAddres" class='l'>详细地址</label>
+					<input type="text" id="recevingAddres" class='l' />
+				</p>
+				<p class='clearfix defaultAddress'>
+					<label for="consignee" class='l'>设为默认地址</label>
+					<span id='consignee' class='r'>
+						<img src="../img/dl_mima_off@2x.png" alt="" class='show'/>
+						<img src="../img/anniu.png" alt="" class='off'/>
+					</span>
+				</p>
+				<h3>
+					每次下单将默认使用此地址
+				</h3>
+				
+			</form>
+			<button>保存并使用</button>
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/plugins/mui.min.js"></script>
+	<script src="../js/plugins/zepto.min.js"></script>	
+	<script type="text/javascript" src="../js/plugins/mui.picker.js"></script>
+	<script type="text/javascript" src="../js/plugins/mui.poppicker.js"></script>
+	<script type="text/javascript" src="../js/plugins/city.data-4.js"></script>
+	<script>
+		(function($, doc) {
+				$.init();
+				$.ready(function() {
+					//级联示例
+					var cityPicker3 = new $.PopPicker({
+						layer : 3
+					});
+					cityPicker3.setData(cityData3);
+					var showCityPickerButton = doc.getElementById('showCityPicker3');
+					showCityPicker3.innerText = "北京市 北京市 东城区";
+	
+	
+					showCityPickerButton.addEventListener('tap', function(event) {
+						cityPicker3.show(function(items) {
+							showCityPicker3.innerText = "" + (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+							showCityPicker3.setAttribute("addressid",items[2].value);
+						});
+					}, false);
+				});
+			})(mui, document);
+	</script>
+	<script src="../js/receivingAddress.js" type="text/javascript" charset="utf-8"></script>
+</html>
